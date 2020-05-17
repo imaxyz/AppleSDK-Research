@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sZI-bE-AK3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Top Menu List View Controller-->
+        <scene sceneID="8Ku-Tn-R5Y">
+            <objects>
+                <viewController id="sZI-bE-AK3" customClass="TopMenuListViewController" customModule="AppleSDKTips" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ykw-IX-mrn"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ggv-bs-RxJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iSa-Dd-1xG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="96" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BxO-Jf-J0g">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TopMenuListTableViewCell" rowHeight="96" id="AJu-iD-ydv" customClass="TopMenuListTableViewCell" customModule="AppleSDKTips" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="96"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AJu-iD-ydv" id="Ved-Ig-LV1">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="95.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Loq-7s-v3j">
+                                                    <rect key="frame" x="24" y="12" width="339" height="71.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Loq-7s-v3j" firstAttribute="top" secondItem="Ved-Ig-LV1" secondAttribute="top" constant="12" id="EwI-dQ-BFV"/>
+                                                <constraint firstItem="Loq-7s-v3j" firstAttribute="leading" secondItem="Ved-Ig-LV1" secondAttribute="leading" constant="24" id="Kj2-sU-81W"/>
+                                                <constraint firstAttribute="bottom" secondItem="Loq-7s-v3j" secondAttribute="bottom" constant="12" id="aWL-X0-qXT"/>
+                                                <constraint firstAttribute="trailing" secondItem="Loq-7s-v3j" secondAttribute="trailing" constant="12" id="sDW-eP-DnE"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="Loq-7s-v3j" id="RjV-1W-D4d"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="delegate" destination="sZI-bE-AK3" id="nsS-XY-bdN"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BxO-Jf-J0g" firstAttribute="top" secondItem="ykw-IX-mrn" secondAttribute="bottom" id="L8C-3q-edQ"/>
+                            <constraint firstItem="Ggv-bs-RxJ" firstAttribute="top" secondItem="BxO-Jf-J0g" secondAttribute="bottom" id="XnE-CX-O3C"/>
+                            <constraint firstAttribute="trailing" secondItem="BxO-Jf-J0g" secondAttribute="trailing" id="aJe-3b-vZm"/>
+                            <constraint firstItem="BxO-Jf-J0g" firstAttribute="leading" secondItem="iSa-Dd-1xG" secondAttribute="leading" id="yGA-QG-VxA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="BxO-Jf-J0g" id="ctC-ex-jLw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vMd-hJ-NVo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="231" y="73"/>
+        </scene>
+    </scenes>
+</document>
