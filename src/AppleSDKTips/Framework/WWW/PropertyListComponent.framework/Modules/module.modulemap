@@ -1,0 +1,6 @@
+framework module PropertyListComponent {
+  umbrella header "PropertyListComponent.h"
+
+  export *
+  module * { export * }
+}

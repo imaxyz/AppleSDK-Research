@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" maximumZoomScale="4" id="Qwy-i7-jDn" customClass="ZoomingSample1ScrollView" customModule="AppleSDKTips">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="294"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nck-ma-Feg">
+                    <rect key="frame" x="0.0" y="0.0" width="364" height="294"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="nck-ma-Feg" firstAttribute="centerX" secondItem="Qwy-i7-jDn" secondAttribute="centerX" id="C5X-4w-aHd"/>
+                <constraint firstItem="nck-ma-Feg" firstAttribute="leading" secondItem="Qwy-i7-jDn" secondAttribute="leading" id="E5z-BX-gNj"/>
+                <constraint firstItem="nck-ma-Feg" firstAttribute="centerY" secondItem="Qwy-i7-jDn" secondAttribute="centerY" id="Evf-mD-yfv"/>
+                <constraint firstAttribute="bottom" secondItem="nck-ma-Feg" secondAttribute="bottom" id="Iuu-Sk-7Sf"/>
+                <constraint firstAttribute="trailing" secondItem="nck-ma-Feg" secondAttribute="trailing" id="R35-Aa-aBt"/>
+                <constraint firstItem="nck-ma-Feg" firstAttribute="top" secondItem="Qwy-i7-jDn" secondAttribute="top" id="tf0-ON-sqh"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="thumbnailImageView" destination="nck-ma-Feg" id="ulS-jO-T6S"/>
+            </connections>
+            <point key="canvasLocation" x="35.5" y="-128"/>
+        </scrollView>
+    </objects>
+</document>
