@@ -93,6 +93,7 @@
 		3953DB431E6B0951007BDD49 /* CollectionView1ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionView1ViewController.storyboard; sourceTree = "<group>"; };
 		3953DB451E6B09D4007BDD49 /* CollectionView1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView1ViewController.swift; sourceTree = "<group>"; };
 		3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView1Cell.swift; sourceTree = "<group>"; };
+		397790862479E81500C2C6C3 /* AppleSDKTips.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSDKTips.entitlements; sourceTree = "<group>"; };
 		399310791F17B93900EF33E6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		399B04442243E410003B9ED5 /* AppleSDKTipsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleSDKTipsTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		39A098821DCA3EE200046D54 /* TopMenuListTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuListTests.swift; sourceTree = "<group>"; };
@@ -367,6 +368,7 @@
 		39B499571DC7922C00EDACB2 /* AppleSDKTips */ = {
 			isa = PBXGroup;
 			children = (
+				397790862479E81500C2C6C3 /* AppleSDKTips.entitlements */,
 				3988CBF71F179FAD00F29FA1 /* Framework */,
 				3988CBF81F179FB500F29FA1 /* Application */,
 				39D029161DCCD17000ADAE35 /* AppleSDKTips-Bridging-Header.h */,
@@ -844,6 +846,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AppleSDKTips/AppleSDKTips.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KCQC4QP985;
@@ -857,6 +860,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.YI201610.AppleSDKTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "AppleSDKTips/AppleSDKTips-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -869,6 +873,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AppleSDKTips/AppleSDKTips.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KCQC4QP985;
@@ -882,6 +887,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.YI201610.AppleSDKTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "AppleSDKTips/AppleSDKTips-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
