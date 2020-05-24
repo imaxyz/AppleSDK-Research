@@ -6,6 +6,20 @@
 
 		<dict>
 			<key>title</key>
+			<string>SwiftUI</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Hello, SwiftUI</string>
+					<key>vc</key>
+					<string>HelloSwiftUIViewController</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>title</key>
 			<string>AWS - Amplify Framework</string>
 			<key>items</key>
 			<array>
@@ -17,6 +31,7 @@
 				</dict>
 			</array>
 		</dict>
+
 
 		<dict>
 			<key>title</key>

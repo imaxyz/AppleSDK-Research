@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		3953DB441E6B0951007BDD49 /* CollectionView1ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3953DB431E6B0951007BDD49 /* CollectionView1ViewController.storyboard */; };
 		3953DB461E6B09D4007BDD49 /* CollectionView1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953DB451E6B09D4007BDD49 /* CollectionView1ViewController.swift */; };
 		3953DB491E6B0ECB007BDD49 /* CollectionView1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */; };
+		397E1418247ABE1700688DE2 /* HelloSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E1417247ABE1700688DE2 /* HelloSwiftUIView.swift */; };
 		39A098831DCA3EE200046D54 /* TopMenuListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A098821DCA3EE200046D54 /* TopMenuListTests.swift */; };
 		39A098851DCA494100046D54 /* TopMenuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A098841DCA494100046D54 /* TopMenuListViewController.swift */; };
 		39B499591DC7922C00EDACB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B499581DC7922C00EDACB2 /* AppDelegate.swift */; };
@@ -99,6 +100,7 @@
 		3953DB451E6B09D4007BDD49 /* CollectionView1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView1ViewController.swift; sourceTree = "<group>"; };
 		3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView1Cell.swift; sourceTree = "<group>"; };
 		397790862479E81500C2C6C3 /* AppleSDKTips.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSDKTips.entitlements; sourceTree = "<group>"; };
+		397E1417247ABE1700688DE2 /* HelloSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIView.swift; sourceTree = "<group>"; };
 		399310791F17B93900EF33E6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		399B04442243E410003B9ED5 /* AppleSDKTipsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleSDKTipsTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		39A098821DCA3EE200046D54 /* TopMenuListTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuListTests.swift; sourceTree = "<group>"; };
@@ -277,6 +279,14 @@
 			name = CollectionViewCell;
 			sourceTree = "<group>";
 		};
+		397E13D7247AB65A00688DE2 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				397E1417247ABE1700688DE2 /* HelloSwiftUIView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		3988CBF71F179FAD00F29FA1 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +321,7 @@
 		3988CBFA1F17A01800F29FA1 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				397E13D7247AB65A00688DE2 /* SwiftUI */,
 				394F21AD21DDF40D003F1E88 /* AVFoundation */,
 				394F21B821DE040B003F1E88 /* UIKit */,
 			);
@@ -611,7 +622,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 810;
 				LastUpgradeCheck = 1140;
-				ORGANIZATIONNAME = YI201610;
+				ORGANIZATIONNAME = imaxyz;
 				TargetAttributes = {
 					39B499541DC7922C00EDACB2 = {
 						CreatedOnToolsVersion = 8.1;
@@ -635,7 +646,7 @@
 				};
 			};
 			buildConfigurationList = 39B499501DC7922C00EDACB2 /* Build configuration list for PBXProject "AppleSDKTips" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -895,6 +906,7 @@
 				390178CD1DCC11870042D29A /* TopMenuListTableViewDataSource.swift in Sources */,
 				3953DB461E6B09D4007BDD49 /* CollectionView1ViewController.swift in Sources */,
 				390178CF1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift in Sources */,
+				397E1418247ABE1700688DE2 /* HelloSwiftUIView.swift in Sources */,
 				39D029121DCCC22300ADAE35 /* TopMenuListTableViewCell.swift in Sources */,
 				394F21B721DDF9D8003F1E88 /* BasicPlaybackViewController.swift in Sources */,
 				39B4998E1DC7964800EDACB2 /* TopMenuEntity.swift in Sources */,
@@ -1061,7 +1073,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1082,9 +1095,12 @@
 					"$(PROJECT_DIR)/AppleSDKTips/Framework/WWW",
 				);
 				INFOPLIST_FILE = AppleSDKTips/Framework/Resource/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YI201610.AppleSDKTips;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imaxyz.AppleSDKTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = YES;
@@ -1110,9 +1126,12 @@
 					"$(PROJECT_DIR)/AppleSDKTips/Framework/WWW",
 				);
 				INFOPLIST_FILE = AppleSDKTips/Framework/Resource/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YI201610.AppleSDKTips;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imaxyz.AppleSDKTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = YES;
@@ -1132,7 +1151,11 @@
 				DEVELOPMENT_TEAM = KCQC4QP985;
 				INFOPLIST_FILE = AppleSDKTipsTests/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YI201610.AppleSDKTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AppleSDKTipsTests/TechnicalService/AppleSDKTipsTests-Bridging-Header.h";
@@ -1153,7 +1176,11 @@
 				DEVELOPMENT_TEAM = KCQC4QP985;
 				INFOPLIST_FILE = AppleSDKTipsTests/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YI201610.AppleSDKTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AppleSDKTipsTests/TechnicalService/AppleSDKTipsTests-Bridging-Header.h";
@@ -1170,7 +1197,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = KCQC4QP985;
 				INFOPLIST_FILE = AppleSDKTipsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YI201610.AppleSDKTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -1186,7 +1217,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = KCQC4QP985;
 				INFOPLIST_FILE = AppleSDKTipsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YI201610.AppleSDKTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
