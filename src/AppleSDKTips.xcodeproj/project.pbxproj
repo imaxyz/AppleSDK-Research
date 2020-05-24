@@ -18,6 +18,7 @@
 		3953DB461E6B09D4007BDD49 /* CollectionView1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953DB451E6B09D4007BDD49 /* CollectionView1ViewController.swift */; };
 		3953DB491E6B0ECB007BDD49 /* CollectionView1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */; };
 		397E1418247ABE1700688DE2 /* HelloSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E1417247ABE1700688DE2 /* HelloSwiftUIView.swift */; };
+		397E141A247AC5CE00688DE2 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E1419247AC5CE00688DE2 /* CircleImageView.swift */; };
 		39A098831DCA3EE200046D54 /* TopMenuListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A098821DCA3EE200046D54 /* TopMenuListTests.swift */; };
 		39A098851DCA494100046D54 /* TopMenuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A098841DCA494100046D54 /* TopMenuListViewController.swift */; };
 		39B499591DC7922C00EDACB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B499581DC7922C00EDACB2 /* AppDelegate.swift */; };
@@ -101,6 +102,7 @@
 		3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView1Cell.swift; sourceTree = "<group>"; };
 		397790862479E81500C2C6C3 /* AppleSDKTips.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSDKTips.entitlements; sourceTree = "<group>"; };
 		397E1417247ABE1700688DE2 /* HelloSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIView.swift; sourceTree = "<group>"; };
+		397E1419247AC5CE00688DE2 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		399310791F17B93900EF33E6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		399B04442243E410003B9ED5 /* AppleSDKTipsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleSDKTipsTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		39A098821DCA3EE200046D54 /* TopMenuListTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuListTests.swift; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 			isa = PBXGroup;
 			children = (
 				397E1417247ABE1700688DE2 /* HelloSwiftUIView.swift */,
+				397E1419247AC5CE00688DE2 /* CircleImageView.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -899,6 +902,7 @@
 			files = (
 				39D0291D1DCCD88000ADAE35 /* TopMenuList.m in Sources */,
 				3953DB491E6B0ECB007BDD49 /* CollectionView1Cell.swift in Sources */,
+				397E141A247AC5CE00688DE2 /* CircleImageView.swift in Sources */,
 				39BA76C11E9687AE00810E47 /* ZoomingSample1ViewController.swift in Sources */,
 				39BA76C61E968A9B00810E47 /* ZoomingSample1ScrollView.swift in Sources */,
 				39A098851DCA494100046D54 /* TopMenuListViewController.swift in Sources */,
