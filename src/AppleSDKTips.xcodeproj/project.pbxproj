@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,8 @@
 		3953DB441E6B0951007BDD49 /* CollectionView1ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3953DB431E6B0951007BDD49 /* CollectionView1ViewController.storyboard */; };
 		3953DB461E6B09D4007BDD49 /* CollectionView1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953DB451E6B09D4007BDD49 /* CollectionView1ViewController.swift */; };
 		3953DB491E6B0ECB007BDD49 /* CollectionView1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */; };
+		397E1418247ABE1700688DE2 /* HelloSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E1417247ABE1700688DE2 /* HelloSwiftUIView.swift */; };
+		397E141A247AC5CE00688DE2 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E1419247AC5CE00688DE2 /* CircleImageView.swift */; };
 		39A098831DCA3EE200046D54 /* TopMenuListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A098821DCA3EE200046D54 /* TopMenuListTests.swift */; };
 		39A098851DCA494100046D54 /* TopMenuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A098841DCA494100046D54 /* TopMenuListViewController.swift */; };
 		39B499591DC7922C00EDACB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B499581DC7922C00EDACB2 /* AppDelegate.swift */; };
@@ -36,8 +38,8 @@
 		39D3E29E246DF3D500F05DB3 /* PropertyListComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39145915246DF31200DBA269 /* PropertyListComponent.framework */; };
 		39D3E29F246DF3D500F05DB3 /* PropertyListComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39145915246DF31200DBA269 /* PropertyListComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		49DE3D1F1B0D328F5C2AAA37 /* Pods_AppleSDKTipsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */; };
-		8E46D8BA1F59C6456B8A1D89 /* Pods_AppleSDKTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */; };
 		89CF760182F841CAA80FC598 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 754630730C3347E38A063533 /* amplifyconfiguration.json */; };
+		8E46D8BA1F59C6456B8A1D89 /* Pods_AppleSDKTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */; };
 		8E94BB7AF4A8488B9CC52205 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 090CA59BC19C4245AC349163 /* awsconfiguration.json */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +89,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		090CA59BC19C4245AC349163 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
+		266A205776F24025BD973933 /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifyDatasource/schema.graphql; sourceTree = "<group>"; };
 		390178CC1DCC11870042D29A /* TopMenuListTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuListTableViewDataSource.swift; sourceTree = "<group>"; };
 		390178CE1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuListViewControllerUITableViewDelegate.swift; sourceTree = "<group>"; };
 		390B546B2072BE59009CBD24 /* Verification20180403TempView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Verification20180403TempView.xib; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 		3953DB451E6B09D4007BDD49 /* CollectionView1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView1ViewController.swift; sourceTree = "<group>"; };
 		3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView1Cell.swift; sourceTree = "<group>"; };
 		397790862479E81500C2C6C3 /* AppleSDKTips.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSDKTips.entitlements; sourceTree = "<group>"; };
+		397E1417247ABE1700688DE2 /* HelloSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIView.swift; sourceTree = "<group>"; };
+		397E1419247AC5CE00688DE2 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		399310791F17B93900EF33E6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		399B04442243E410003B9ED5 /* AppleSDKTipsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleSDKTipsTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		39A098821DCA3EE200046D54 /* TopMenuListTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuListTests.swift; sourceTree = "<group>"; };
@@ -127,6 +133,8 @@
 		39D0291C1DCCD88000ADAE35 /* TopMenuList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopMenuList.m; sourceTree = "<group>"; };
 		3E491C33B34005C2C736E2E7 /* Pods-AppleSDKTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips.debug.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips.debug.xcconfig"; sourceTree = "<group>"; };
 		45442FFF4C793CFDF88FDB87 /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTips_AppleSDKTipsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		519C5BB9B36C43A0AC3E2E1A /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+		754630730C3347E38A063533 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		76F538E0EC6DD86CCB7C8C5A /* Pods-AppleSDKTipsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTipsTests.debug.xcconfig"; path = "Target Support Files/Pods-AppleSDKTipsTests/Pods-AppleSDKTipsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D8857339530240312B931A6 /* Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips-AppleSDKTipsUITests/Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BF45BF5491F10AF4AF68FD69 /* Pods-AppleSDKTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,10 +142,6 @@
 		E76EC04D5B3D292774744A54 /* Pods-AppleSDKTipsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTipsTests.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTipsTests/Pods-AppleSDKTipsTests.release.xcconfig"; sourceTree = "<group>"; };
 		F60176633F148E08198A2E92 /* Pods-AppleSDKTips-AppleSDKTipsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips-AppleSDKTipsUITests.debug.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips-AppleSDKTipsUITests/Pods-AppleSDKTips-AppleSDKTipsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		519C5BB9B36C43A0AC3E2E1A /* amplifytools.xcconfig */ = {isa = PBXFileReference; name = "amplifytools.xcconfig"; path = "amplifytools.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.xcconfig; explicitFileType = undefined; includeInIndex = 0; };
-		754630730C3347E38A063533 /* amplifyconfiguration.json */ = {isa = PBXFileReference; name = "amplifyconfiguration.json"; path = "amplifyconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		090CA59BC19C4245AC349163 /* awsconfiguration.json */ = {isa = PBXFileReference; name = "awsconfiguration.json"; path = "awsconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		266A205776F24025BD973933 /* schema.graphql */ = {isa = PBXFileReference; name = "schema.graphql"; path = "amplify/backend/api/amplifyDatasource/schema.graphql"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +281,15 @@
 			name = CollectionViewCell;
 			sourceTree = "<group>";
 		};
+		397E13D7247AB65A00688DE2 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				397E1417247ABE1700688DE2 /* HelloSwiftUIView.swift */,
+				397E1419247AC5CE00688DE2 /* CircleImageView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		3988CBF71F179FAD00F29FA1 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +324,7 @@
 		3988CBFA1F17A01800F29FA1 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				397E13D7247AB65A00688DE2 /* SwiftUI */,
 				394F21AD21DDF40D003F1E88 /* AVFoundation */,
 				394F21B821DE040B003F1E88 /* UIKit */,
 			);
@@ -611,7 +625,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 810;
 				LastUpgradeCheck = 1140;
-				ORGANIZATIONNAME = YI201610;
+				ORGANIZATIONNAME = imaxyz;
 				TargetAttributes = {
 					39B499541DC7922C00EDACB2 = {
 						CreatedOnToolsVersion = 8.1;
@@ -635,7 +649,7 @@
 				};
 			};
 			buildConfigurationList = 39B499501DC7922C00EDACB2 /* Build configuration list for PBXProject "AppleSDKTips" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -888,6 +902,7 @@
 			files = (
 				39D0291D1DCCD88000ADAE35 /* TopMenuList.m in Sources */,
 				3953DB491E6B0ECB007BDD49 /* CollectionView1Cell.swift in Sources */,
+				397E141A247AC5CE00688DE2 /* CircleImageView.swift in Sources */,
 				39BA76C11E9687AE00810E47 /* ZoomingSample1ViewController.swift in Sources */,
 				39BA76C61E968A9B00810E47 /* ZoomingSample1ScrollView.swift in Sources */,
 				39A098851DCA494100046D54 /* TopMenuListViewController.swift in Sources */,
@@ -895,6 +910,7 @@
 				390178CD1DCC11870042D29A /* TopMenuListTableViewDataSource.swift in Sources */,
 				3953DB461E6B09D4007BDD49 /* CollectionView1ViewController.swift in Sources */,
 				390178CF1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift in Sources */,
+				397E1418247ABE1700688DE2 /* HelloSwiftUIView.swift in Sources */,
 				39D029121DCCC22300ADAE35 /* TopMenuListTableViewCell.swift in Sources */,
 				394F21B721DDF9D8003F1E88 /* BasicPlaybackViewController.swift in Sources */,
 				39B4998E1DC7964800EDACB2 /* TopMenuEntity.swift in Sources */,
@@ -1061,7 +1077,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1082,9 +1099,12 @@
 					"$(PROJECT_DIR)/AppleSDKTips/Framework/WWW",
 				);
 				INFOPLIST_FILE = AppleSDKTips/Framework/Resource/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YI201610.AppleSDKTips;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imaxyz.AppleSDKTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = YES;
@@ -1110,9 +1130,12 @@
 					"$(PROJECT_DIR)/AppleSDKTips/Framework/WWW",
 				);
 				INFOPLIST_FILE = AppleSDKTips/Framework/Resource/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YI201610.AppleSDKTips;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imaxyz.AppleSDKTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = YES;
@@ -1132,7 +1155,11 @@
 				DEVELOPMENT_TEAM = KCQC4QP985;
 				INFOPLIST_FILE = AppleSDKTipsTests/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YI201610.AppleSDKTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AppleSDKTipsTests/TechnicalService/AppleSDKTipsTests-Bridging-Header.h";
@@ -1153,7 +1180,11 @@
 				DEVELOPMENT_TEAM = KCQC4QP985;
 				INFOPLIST_FILE = AppleSDKTipsTests/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YI201610.AppleSDKTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AppleSDKTipsTests/TechnicalService/AppleSDKTipsTests-Bridging-Header.h";
@@ -1170,7 +1201,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = KCQC4QP985;
 				INFOPLIST_FILE = AppleSDKTipsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YI201610.AppleSDKTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -1186,7 +1221,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = KCQC4QP985;
 				INFOPLIST_FILE = AppleSDKTipsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YI201610.AppleSDKTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
