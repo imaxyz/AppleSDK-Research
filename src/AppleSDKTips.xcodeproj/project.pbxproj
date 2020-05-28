@@ -38,8 +38,8 @@
 		39D3E29E246DF3D500F05DB3 /* PropertyListComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39145915246DF31200DBA269 /* PropertyListComponent.framework */; };
 		39D3E29F246DF3D500F05DB3 /* PropertyListComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39145915246DF31200DBA269 /* PropertyListComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		49DE3D1F1B0D328F5C2AAA37 /* Pods_AppleSDKTipsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */; };
-		8E46D8BA1F59C6456B8A1D89 /* Pods_AppleSDKTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */; };
 		89CF760182F841CAA80FC598 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 754630730C3347E38A063533 /* amplifyconfiguration.json */; };
+		8E46D8BA1F59C6456B8A1D89 /* Pods_AppleSDKTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */; };
 		8E94BB7AF4A8488B9CC52205 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 090CA59BC19C4245AC349163 /* awsconfiguration.json */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +89,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		090CA59BC19C4245AC349163 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
+		266A205776F24025BD973933 /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifyDatasource/schema.graphql; sourceTree = "<group>"; };
 		390178CC1DCC11870042D29A /* TopMenuListTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuListTableViewDataSource.swift; sourceTree = "<group>"; };
 		390178CE1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuListViewControllerUITableViewDelegate.swift; sourceTree = "<group>"; };
 		390B546B2072BE59009CBD24 /* Verification20180403TempView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Verification20180403TempView.xib; sourceTree = "<group>"; };
@@ -131,6 +133,8 @@
 		39D0291C1DCCD88000ADAE35 /* TopMenuList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopMenuList.m; sourceTree = "<group>"; };
 		3E491C33B34005C2C736E2E7 /* Pods-AppleSDKTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips.debug.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips.debug.xcconfig"; sourceTree = "<group>"; };
 		45442FFF4C793CFDF88FDB87 /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTips_AppleSDKTipsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		519C5BB9B36C43A0AC3E2E1A /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+		754630730C3347E38A063533 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		76F538E0EC6DD86CCB7C8C5A /* Pods-AppleSDKTipsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTipsTests.debug.xcconfig"; path = "Target Support Files/Pods-AppleSDKTipsTests/Pods-AppleSDKTipsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D8857339530240312B931A6 /* Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips-AppleSDKTipsUITests/Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BF45BF5491F10AF4AF68FD69 /* Pods-AppleSDKTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,10 +142,6 @@
 		E76EC04D5B3D292774744A54 /* Pods-AppleSDKTipsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTipsTests.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTipsTests/Pods-AppleSDKTipsTests.release.xcconfig"; sourceTree = "<group>"; };
 		F60176633F148E08198A2E92 /* Pods-AppleSDKTips-AppleSDKTipsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips-AppleSDKTipsUITests.debug.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips-AppleSDKTipsUITests/Pods-AppleSDKTips-AppleSDKTipsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		519C5BB9B36C43A0AC3E2E1A /* amplifytools.xcconfig */ = {isa = PBXFileReference; name = "amplifytools.xcconfig"; path = "amplifytools.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.xcconfig; explicitFileType = undefined; includeInIndex = 0; };
-		754630730C3347E38A063533 /* amplifyconfiguration.json */ = {isa = PBXFileReference; name = "amplifyconfiguration.json"; path = "amplifyconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		090CA59BC19C4245AC349163 /* awsconfiguration.json */ = {isa = PBXFileReference; name = "awsconfiguration.json"; path = "awsconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		266A205776F24025BD973933 /* schema.graphql */ = {isa = PBXFileReference; name = "schema.graphql"; path = "amplify/backend/api/amplifyDatasource/schema.graphql"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
