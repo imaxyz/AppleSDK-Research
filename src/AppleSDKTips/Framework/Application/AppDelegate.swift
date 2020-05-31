@@ -6,6 +6,10 @@
 
 import UIKit
 
+// Amplify関連のライブラリをインポート
+import Amplify
+import AmplifyPlugins
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -13,6 +17,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
+        // Amplifyのログレベルを変更
+        Amplify.Logging.logLevel = .debug
+
+        // Amplifyの初期化
+        let dataStorePlugin = AWSDataStorePlugin(modelRegistration: AmplifyModels())
+        do {
+           try Amplify.add(plugin:dataStorePlugin)
+           try Amplify.configure()
+           print("*** OK: Initialized Amplify! ***");
+        } catch {
+           print("xxx Could not initialize Amplify: \(error)")
+        }
+        
         return true
     }
 
