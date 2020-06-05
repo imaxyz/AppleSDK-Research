@@ -57,8 +57,7 @@ struct HelloSwiftUIView: View {
             //このSpacerを挿入することで、合成物の配置が上詰めになる
             Spacer()
         }
-        .background(Color.green)
-
+//        .background(Color.green)
     }
 }
 
