@@ -36,33 +36,19 @@
 		39BA76CD1E9691F700810E47 /* ZoomingSample1ScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39BA76CC1E9691F700810E47 /* ZoomingSample1ScrollView.xib */; };
 		39D029121DCCC22300ADAE35 /* TopMenuListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D029111DCCC22300ADAE35 /* TopMenuListTableViewCell.swift */; };
 		39D0291D1DCCD88000ADAE35 /* TopMenuList.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D0291C1DCCD88000ADAE35 /* TopMenuList.m */; };
-		39D3E29E246DF3D500F05DB3 /* PropertyListComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39145915246DF31200DBA269 /* PropertyListComponent.framework */; };
-		39D3E29F246DF3D500F05DB3 /* PropertyListComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39145915246DF31200DBA269 /* PropertyListComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		39E3AB9E2485347500B3ED15 /* SomeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E3AB9D2485347500B3ED15 /* SomeMapView.swift */; };
+		47267E1C8E37C04479449913 /* Pods_AppleSDKTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */; };
 		49DE3D1F1B0D328F5C2AAA37 /* Pods_AppleSDKTipsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */; };
 		89CF760182F841CAA80FC598 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 754630730C3347E38A063533 /* amplifyconfiguration.json */; };
-		8E46D8BA1F59C6456B8A1D89 /* Pods_AppleSDKTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */; };
 		8E94BB7AF4A8488B9CC52205 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 090CA59BC19C4245AC349163 /* awsconfiguration.json */; };
+		AE34EBAF249524E300BD2B3F /* PropertyListComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; };
+		AE34EBB0249524E300BD2B3F /* PropertyListComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B2CFADB706FA43D68E2DF392 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68756D9721194E7B832577AC /* Todo+Schema.swift */; };
 		C5B064646F964C66917794B4 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899C6886F0F940F1B591AFC0 /* AmplifyModels.swift */; };
 		E09F5E7E8B7F406DA3558875 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8379B042C12474B90B32597 /* Priority.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		39145914246DF31200DBA269 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3914590F246DF31200DBA269 /* PropertyListComponent.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3919783C2244A8B0006A3BFD;
-			remoteInfo = PropertyListComponent;
-		};
-		39145916246DF31200DBA269 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3914590F246DF31200DBA269 /* PropertyListComponent.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 391978452244A8B0006A3BFD;
-			remoteInfo = PropertyListComponentTests;
-		};
 		39B4996A1DC7922C00EDACB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 39B4994D1DC7922C00EDACB2 /* Project object */;
@@ -77,6 +63,20 @@
 			remoteGlobalIDString = 39B499541DC7922C00EDACB2;
 			remoteInfo = AppleSDKTips;
 		};
+		AEE3CD8224951B4400C9AA9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3914590F246DF31200DBA269 /* PropertyListComponent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3919783C2244A8B0006A3BFD;
+			remoteInfo = PropertyListComponent;
+		};
+		AEE3CD8424951B4400C9AA9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3914590F246DF31200DBA269 /* PropertyListComponent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 391978452244A8B0006A3BFD;
+			remoteInfo = PropertyListComponentTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,7 +86,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				39D3E29F246DF3D500F05DB3 /* PropertyListComponent.framework in Embed Frameworks */,
+				AE34EBB0249524E300BD2B3F /* PropertyListComponent.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,7 +99,7 @@
 		390178CC1DCC11870042D29A /* TopMenuListTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuListTableViewDataSource.swift; sourceTree = "<group>"; };
 		390178CE1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuListViewControllerUITableViewDelegate.swift; sourceTree = "<group>"; };
 		390B546B2072BE59009CBD24 /* Verification20180403TempView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Verification20180403TempView.xib; sourceTree = "<group>"; };
-		3914590F246DF31200DBA269 /* PropertyListComponent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PropertyListComponent.xcodeproj; path = "../../YI201610-PropertyListComponent/PropertyListComponent/PropertyListComponent.xcodeproj"; sourceTree = "<group>"; };
+		3914590F246DF31200DBA269 /* PropertyListComponent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PropertyListComponent.xcodeproj; path = "../../imaxyz-PropertyListComponent/PropertyListComponent/PropertyListComponent.xcodeproj"; sourceTree = "<group>"; };
 		3919785E2244B04F006A3BFD /* PropertyListComponent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PropertyListComponent.framework; sourceTree = "<group>"; };
 		394F21B221DDF445003F1E88 /* BasicPlaybackViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BasicPlaybackViewController.storyboard; sourceTree = "<group>"; };
 		394F21B421DDF553003F1E88 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -159,8 +159,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39D3E29E246DF3D500F05DB3 /* PropertyListComponent.framework in Frameworks */,
-				8E46D8BA1F59C6456B8A1D89 /* Pods_AppleSDKTips.framework in Frameworks */,
+				AE34EBAF249524E300BD2B3F /* PropertyListComponent.framework in Frameworks */,
+				47267E1C8E37C04479449913 /* Pods_AppleSDKTips.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,15 +194,6 @@
 				E76EC04D5B3D292774744A54 /* Pods-AppleSDKTipsTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		39145910246DF31200DBA269 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				39145915246DF31200DBA269 /* PropertyListComponent.framework */,
-				39145917246DF31200DBA269 /* PropertyListComponentTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		39145918246DF35100DBA269 /* Frameworks */ = {
@@ -578,6 +569,15 @@
 			path = .;
 			sourceTree = "<group>";
 		};
+		AEE3CD7E24951B4400C9AA9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */,
+				AEE3CD8524951B4400C9AA9D /* PropertyListComponentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -685,7 +685,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 39145910246DF31200DBA269 /* Products */;
+					ProductGroup = AEE3CD7E24951B4400C9AA9D /* Products */;
 					ProjectRef = 3914590F246DF31200DBA269 /* PropertyListComponent.xcodeproj */;
 				},
 			);
@@ -699,18 +699,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		39145915246DF31200DBA269 /* PropertyListComponent.framework */ = {
+		AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = PropertyListComponent.framework;
-			remoteRef = 39145914246DF31200DBA269 /* PBXContainerItemProxy */;
+			remoteRef = AEE3CD8224951B4400C9AA9D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		39145917246DF31200DBA269 /* PropertyListComponentTests.xctest */ = {
+		AEE3CD8524951B4400C9AA9D /* PropertyListComponentTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = PropertyListComponentTests.xctest;
-			remoteRef = 39145916246DF31200DBA269 /* PBXContainerItemProxy */;
+			remoteRef = AEE3CD8424951B4400C9AA9D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -798,35 +798,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSPluginsCore/AWSPluginsCore.framework",
-				"${BUILT_PRODUCTS_DIR}/Amplify/Amplify.framework",
-				"${BUILT_PRODUCTS_DIR}/AmplifyPlugins/AmplifyPlugins.framework",
-				"${BUILT_PRODUCTS_DIR}/AppSyncRealTimeClient/AppSyncRealTimeClient.framework",
-				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
-				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
-				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPluginsCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Amplify.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AmplifyPlugins.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppSyncRealTimeClient.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -882,35 +859,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips-AppleSDKTipsUITests/Pods-AppleSDKTips-AppleSDKTipsUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSPluginsCore/AWSPluginsCore.framework",
-				"${BUILT_PRODUCTS_DIR}/Amplify/Amplify.framework",
-				"${BUILT_PRODUCTS_DIR}/AmplifyPlugins/AmplifyPlugins.framework",
-				"${BUILT_PRODUCTS_DIR}/AppSyncRealTimeClient/AppSyncRealTimeClient.framework",
-				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
-				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
-				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips-AppleSDKTipsUITests/Pods-AppleSDKTips-AppleSDKTipsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPluginsCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Amplify.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AmplifyPlugins.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppSyncRealTimeClient.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips-AppleSDKTipsUITests/Pods-AppleSDKTips-AppleSDKTipsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
