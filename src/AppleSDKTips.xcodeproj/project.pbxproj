@@ -287,10 +287,9 @@
 		397E13D7247AB65A00688DE2 /* SwiftUI-Tutorial1 */ = {
 			isa = PBXGroup;
 			children = (
-				AE7DFA302497BD8C00C96C91 /* tutorial1.json */,
-				397E1417247ABE1700688DE2 /* HelloSwiftUIView.swift */,
-				397E1419247AC5CE00688DE2 /* CircleImageView.swift */,
-				39E3AB9D2485347500B3ED15 /* SomeMapView.swift */,
+				AE7DFA362497C2E300C96C91 /* Resources */,
+				AE7DFA352497C2DD00C96C91 /* Model */,
+				AE7DFA342497C2D100C96C91 /* Views */,
 			);
 			path = "SwiftUI-Tutorial1";
 			sourceTree = "<group>";
@@ -570,6 +569,31 @@
 			);
 			name = AmplifyConfig;
 			path = .;
+			sourceTree = "<group>";
+		};
+		AE7DFA342497C2D100C96C91 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				397E1417247ABE1700688DE2 /* HelloSwiftUIView.swift */,
+				397E1419247AC5CE00688DE2 /* CircleImageView.swift */,
+				39E3AB9D2485347500B3ED15 /* SomeMapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AE7DFA352497C2DD00C96C91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE7DFA362497C2E300C96C91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE7DFA302497BD8C00C96C91 /* tutorial1.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		AEE3CD7E24951B4400C9AA9D /* Products */ = {
