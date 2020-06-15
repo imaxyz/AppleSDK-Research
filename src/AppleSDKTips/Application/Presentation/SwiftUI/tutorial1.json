@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1001,
+        "name": "ゼロワンドライバー",
+        "category": "Featured",
+        "city": "Twentynine Palms",
+        "state": "California",
+        "park": "Joshua Tree National Park",
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "imageName": "turtlerock"
+    }
+]

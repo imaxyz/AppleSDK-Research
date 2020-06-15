@@ -43,6 +43,7 @@
 		8E94BB7AF4A8488B9CC52205 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 090CA59BC19C4245AC349163 /* awsconfiguration.json */; };
 		AE34EBAF249524E300BD2B3F /* PropertyListComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; };
 		AE34EBB0249524E300BD2B3F /* PropertyListComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE7DFA332497BD8C00C96C91 /* tutorial1.json in Resources */ = {isa = PBXBuildFile; fileRef = AE7DFA302497BD8C00C96C91 /* tutorial1.json */; };
 		B2CFADB706FA43D68E2DF392 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68756D9721194E7B832577AC /* Todo+Schema.swift */; };
 		C5B064646F964C66917794B4 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899C6886F0F940F1B591AFC0 /* AmplifyModels.swift */; };
 		E09F5E7E8B7F406DA3558875 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8379B042C12474B90B32597 /* Priority.swift */; };
@@ -146,6 +147,7 @@
 		76F538E0EC6DD86CCB7C8C5A /* Pods-AppleSDKTipsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTipsTests.debug.xcconfig"; path = "Target Support Files/Pods-AppleSDKTipsTests/Pods-AppleSDKTipsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D8857339530240312B931A6 /* Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips-AppleSDKTipsUITests/Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		899C6886F0F940F1B591AFC0 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		AE7DFA302497BD8C00C96C91 /* tutorial1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial1.json; sourceTree = "<group>"; };
 		BF45BF5491F10AF4AF68FD69 /* Pods-AppleSDKTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips.release.xcconfig"; sourceTree = "<group>"; };
 		D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTipsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76EC04D5B3D292774744A54 /* Pods-AppleSDKTipsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTipsTests.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTipsTests/Pods-AppleSDKTipsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 		397E13D7247AB65A00688DE2 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				AE7DFA302497BD8C00C96C91 /* tutorial1.json */,
 				397E1417247ABE1700688DE2 /* HelloSwiftUIView.swift */,
 				397E1419247AC5CE00688DE2 /* CircleImageView.swift */,
 				39E3AB9D2485347500B3ED15 /* SomeMapView.swift */,
@@ -726,6 +729,7 @@
 				39B499631DC7922C00EDACB2 /* LaunchScreen.storyboard in Resources */,
 				39B499601DC7922C00EDACB2 /* Assets.xcassets in Resources */,
 				390B546C2072BE59009CBD24 /* Verification20180403TempView.xib in Resources */,
+				AE7DFA332497BD8C00C96C91 /* tutorial1.json in Resources */,
 				39BA76CD1E9691F700810E47 /* ZoomingSample1ScrollView.xib in Resources */,
 				39B4995E1DC7922C00EDACB2 /* Main.storyboard in Resources */,
 				39B7A1901DCB706E005DB322 /* topMenu.plist in Resources */,

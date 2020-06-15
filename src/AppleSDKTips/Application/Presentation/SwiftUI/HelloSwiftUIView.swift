@@ -26,12 +26,12 @@ struct HelloSwiftUIView: View {
             
             // MapView
             SomeMapView()
-//                .edgesIgnoringSafeArea(.top)
+                .edgesIgnoringSafeArea(.top)
                 .frame(height: 300)
             
             //Circle
-            CircleImageView()
-                .offset(y: -130)    // 上部に130pt上にずらす
+            CircleImageView(image: Image("IMG_3513"))
+                .offset(x: 0, y: -130)    // 上部に130pt上にずらす
                 .padding(.bottom, -130) // 底辺を130pt上にずらす
             
             // 垂直要素を構成
