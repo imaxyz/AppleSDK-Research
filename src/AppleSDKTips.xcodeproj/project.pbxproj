@@ -284,7 +284,7 @@
 			name = CollectionViewCell;
 			sourceTree = "<group>";
 		};
-		397E13D7247AB65A00688DE2 /* SwiftUI */ = {
+		397E13D7247AB65A00688DE2 /* SwiftUI-Tutorial1 */ = {
 			isa = PBXGroup;
 			children = (
 				AE7DFA302497BD8C00C96C91 /* tutorial1.json */,
@@ -292,7 +292,7 @@
 				397E1419247AC5CE00688DE2 /* CircleImageView.swift */,
 				39E3AB9D2485347500B3ED15 /* SomeMapView.swift */,
 			);
-			path = SwiftUI;
+			path = "SwiftUI-Tutorial1";
 			sourceTree = "<group>";
 		};
 		3988CBF71F179FAD00F29FA1 /* Framework */ = {
@@ -329,7 +329,7 @@
 		3988CBFA1F17A01800F29FA1 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				397E13D7247AB65A00688DE2 /* SwiftUI */,
+				397E13D7247AB65A00688DE2 /* SwiftUI-Tutorial1 */,
 				394F21AD21DDF40D003F1E88 /* AVFoundation */,
 				394F21B821DE040B003F1E88 /* UIKit */,
 			);
