@@ -10,28 +10,34 @@ import SwiftUI
 
 
 /// FIXME: 適切な位置に移動
-let landmarkData: [Landmark] = load("tutorial1.json")
+let landmarkData: [Landmark] = load(filename: "tutorial1.json")
 
-/// TODO: Cocableプロトコルの復習
-/// - Parameter filename: <#filename description#>
+/// localhostに配置したjsonファイルを読み込み、デコードして辞書データを返す
+/// - Parameter filename: jsonファイルのパス
 /// - Returns: <#description#>
-func load<T: Decodable>(_ filename: String) -> T {
-    let data: Data
+func load<T: Decodable>(filename: String) -> T {
     
+    /// ファイルオープン
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
         else {
             fatalError("Couldn't find \(filename) in main bundle.")
     }
     
+    /// ファイルからjsonデータを読み込み
+    let json_buffer: Data
     do {
-        data = try Data(contentsOf: file)
+        json_buffer = try Data(contentsOf: file)
     } catch {
         fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
     }
     
+    // jsonデータをオブジェクトにデコードして返す
     do {
+        
         let decoder = JSONDecoder()
-        return try decoder.decode(T.self, from: data)
+        let decoded = try decoder.decode(T.self, from: json_buffer)
+        return decoded
+        
     } catch {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
@@ -43,6 +49,7 @@ struct LandmarkRowView: View {
     var landmark: Landmark
     
     var body: some View {
+        
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }

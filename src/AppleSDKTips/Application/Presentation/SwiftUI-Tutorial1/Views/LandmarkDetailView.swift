@@ -9,7 +9,7 @@
 import SwiftUI
 
 // 要iOS13以降
-struct HelloSwiftUIView: View {
+struct LandmarkDetailView: View {
 
     /*
     SwiftUIでは、body要素に、
@@ -64,7 +64,7 @@ struct HelloSwiftUIView: View {
 
 struct HelloSwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        HelloSwiftUIView()
+        LandmarkDetailView()
             .padding()
     }
 }

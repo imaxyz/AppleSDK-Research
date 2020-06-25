@@ -18,7 +18,7 @@
 		3953DB441E6B0951007BDD49 /* CollectionView1ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3953DB431E6B0951007BDD49 /* CollectionView1ViewController.storyboard */; };
 		3953DB461E6B09D4007BDD49 /* CollectionView1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953DB451E6B09D4007BDD49 /* CollectionView1ViewController.swift */; };
 		3953DB491E6B0ECB007BDD49 /* CollectionView1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */; };
-		397E1418247ABE1700688DE2 /* HelloSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E1417247ABE1700688DE2 /* HelloSwiftUIView.swift */; };
+		397E1418247ABE1700688DE2 /* LandmarkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E1417247ABE1700688DE2 /* LandmarkDetailView.swift */; };
 		397E141A247AC5CE00688DE2 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E1419247AC5CE00688DE2 /* CircleImageView.swift */; };
 		39A098831DCA3EE200046D54 /* TopMenuListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A098821DCA3EE200046D54 /* TopMenuListTests.swift */; };
 		39A098851DCA494100046D54 /* TopMenuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A098841DCA494100046D54 /* TopMenuListViewController.swift */; };
@@ -111,7 +111,7 @@
 		3953DB451E6B09D4007BDD49 /* CollectionView1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView1ViewController.swift; sourceTree = "<group>"; };
 		3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView1Cell.swift; sourceTree = "<group>"; };
 		397790862479E81500C2C6C3 /* AppleSDKTips.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSDKTips.entitlements; sourceTree = "<group>"; };
-		397E1417247ABE1700688DE2 /* HelloSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIView.swift; sourceTree = "<group>"; };
+		397E1417247ABE1700688DE2 /* LandmarkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetailView.swift; sourceTree = "<group>"; };
 		397E1419247AC5CE00688DE2 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		399310791F17B93900EF33E6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		399B04442243E410003B9ED5 /* AppleSDKTipsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleSDKTipsTests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -441,6 +441,7 @@
 		39B4996C1DC7922C00EDACB2 /* AppleSDKTipsTests */ = {
 			isa = PBXGroup;
 			children = (
+				AE50B47E24A4E567003B9F3C /* Model */,
 				399B04432243E3CC003B9ED5 /* TechnicalService */,
 				39B7A1941DCB8123005DB322 /* ModelController */,
 				39B7A1911DCB75E8005DB322 /* Resource */,
@@ -575,10 +576,17 @@
 			path = .;
 			sourceTree = "<group>";
 		};
+		AE50B47E24A4E567003B9F3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		AE7DFA342497C2D100C96C91 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				397E1417247ABE1700688DE2 /* HelloSwiftUIView.swift */,
+				397E1417247ABE1700688DE2 /* LandmarkDetailView.swift */,
 				397E1419247AC5CE00688DE2 /* CircleImageView.swift */,
 				AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */,
 				39E3AB9D2485347500B3ED15 /* SomeMapView.swift */,
@@ -924,7 +932,7 @@
 				390178CD1DCC11870042D29A /* TopMenuListTableViewDataSource.swift in Sources */,
 				3953DB461E6B09D4007BDD49 /* CollectionView1ViewController.swift in Sources */,
 				390178CF1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift in Sources */,
-				397E1418247ABE1700688DE2 /* HelloSwiftUIView.swift in Sources */,
+				397E1418247ABE1700688DE2 /* LandmarkDetailView.swift in Sources */,
 				39D029121DCCC22300ADAE35 /* TopMenuListTableViewCell.swift in Sources */,
 				AE7DFA3C2497CC0C00C96C91 /* Landmark.swift in Sources */,
 				394F21B721DDF9D8003F1E88 /* BasicPlaybackViewController.swift in Sources */,
