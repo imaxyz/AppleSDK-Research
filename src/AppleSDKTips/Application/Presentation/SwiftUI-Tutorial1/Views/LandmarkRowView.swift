@@ -10,11 +10,12 @@ import SwiftUI
 
 
 /// FIXME: 適切な位置に移動
+/// Landmarkモデル・インスタンスの配列
 let landmarkData: [Landmark] = load(filename: "tutorial1.json")
 
 /// localhostに配置したjsonファイルを読み込み、デコードして辞書データを返す
 /// - Parameter filename: jsonファイルのパス
-/// - Returns: <#description#>
+/// - Returns: デコードされたオブジェクトのリスト
 func load<T: Decodable>(filename: String) -> T {
     
     /// ファイルオープン
@@ -33,10 +34,9 @@ func load<T: Decodable>(filename: String) -> T {
     
     // jsonデータをオブジェクトにデコードして返す
     do {
-        
         let decoder = JSONDecoder()
-        let decoded = try decoder.decode(T.self, from: json_buffer)
-        return decoded
+        let decodes = try decoder.decode(T.self, from: json_buffer)
+        return decodes
         
     } catch {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
@@ -49,8 +49,9 @@ struct LandmarkRowView: View {
     var landmark: Landmark
     
     var body: some View {
-        
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text(String(landmark.id) + landmark.name)
+        }
     }
 }
 

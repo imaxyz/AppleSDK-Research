@@ -43,6 +43,7 @@
 		8E94BB7AF4A8488B9CC52205 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 090CA59BC19C4245AC349163 /* awsconfiguration.json */; };
 		AE34EBAF249524E300BD2B3F /* PropertyListComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; };
 		AE34EBB0249524E300BD2B3F /* PropertyListComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE50B48324A55C59003B9F3C /* ImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50B48224A55C59003B9F3C /* ImageDataSource.swift */; };
 		AE7DFA332497BD8C00C96C91 /* tutorial1.json in Resources */ = {isa = PBXBuildFile; fileRef = AE7DFA302497BD8C00C96C91 /* tutorial1.json */; };
 		AE7DFA382497C35E00C96C91 /* LandmarkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */; };
 		AE7DFA3C2497CC0C00C96C91 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFA3B2497CC0C00C96C91 /* Landmark.swift */; };
@@ -149,6 +150,7 @@
 		76F538E0EC6DD86CCB7C8C5A /* Pods-AppleSDKTipsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTipsTests.debug.xcconfig"; path = "Target Support Files/Pods-AppleSDKTipsTests/Pods-AppleSDKTipsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D8857339530240312B931A6 /* Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips-AppleSDKTipsUITests/Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		899C6886F0F940F1B591AFC0 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		AE50B48224A55C59003B9F3C /* ImageDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataSource.swift; sourceTree = "<group>"; };
 		AE7DFA302497BD8C00C96C91 /* tutorial1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial1.json; sourceTree = "<group>"; };
 		AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRowView.swift; path = "AppleSDKTips/Application/Presentation/SwiftUI-Tutorial1/Views/LandmarkRowView.swift"; sourceTree = SOURCE_ROOT; };
 		AE7DFA3B2497CC0C00C96C91 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 		397E13D7247AB65A00688DE2 /* SwiftUI-Tutorial1 */ = {
 			isa = PBXGroup;
 			children = (
+				AE50B48124A55C1E003B9F3C /* DataSource */,
 				AE7DFA362497C2E300C96C91 /* Resources */,
 				AE7DFA352497C2DD00C96C91 /* Model */,
 				AE7DFA342497C2D100C96C91 /* Views */,
@@ -581,6 +584,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		AE50B48124A55C1E003B9F3C /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B48224A55C59003B9F3C /* ImageDataSource.swift */,
+			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 		AE7DFA342497C2D100C96C91 /* Views */ = {
@@ -922,6 +933,7 @@
 			files = (
 				39D0291D1DCCD88000ADAE35 /* TopMenuList.m in Sources */,
 				3953DB491E6B0ECB007BDD49 /* CollectionView1Cell.swift in Sources */,
+				AE50B48324A55C59003B9F3C /* ImageDataSource.swift in Sources */,
 				397E141A247AC5CE00688DE2 /* CircleImageView.swift in Sources */,
 				AE7DFA382497C35E00C96C91 /* LandmarkRowView.swift in Sources */,
 				39BA76C11E9687AE00810E47 /* ZoomingSample1ViewController.swift in Sources */,

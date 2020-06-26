@@ -10,4 +10,5 @@ import Foundation
 
 struct Landmark: Codable {
     var id: Int
+    var name: String
 }
