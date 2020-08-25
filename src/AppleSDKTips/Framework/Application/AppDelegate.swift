@@ -10,13 +10,18 @@ import UIKit
 import Amplify
 import AmplifyPlugins
 
+// Facebook SDK関連のライブラリをインポート
+import FacebookCore
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
+    {
 
         // Amplifyのログレベルを変更
         Amplify.Logging.logLevel = .debug
@@ -30,6 +35,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         } catch {
            print("xxx Could not initialize Amplify: \(error)")
         }
+        
+        // 以下のコードは、Facebook SDKにつながっている。Facebook SDKを起動する。
+        ApplicationDelegate.shared.application(
+            application,
+            didFinishLaunchingWithOptions: launchOptions
+        )
         
         return true
     }
