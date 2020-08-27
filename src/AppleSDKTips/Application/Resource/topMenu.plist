@@ -6,6 +6,21 @@
 
 		<dict>
 			<key>title</key>
+			<string>Facebook SDK</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Simple Login</string>
+					<key>vc</key>
+					<string>FacebookSimpleLoginViewController</string>
+				</dict>
+			</array>
+		</dict>
+
+
+		<dict>
+			<key>title</key>
 			<string>SwiftUI</string>
 			<key>items</key>
 			<array>

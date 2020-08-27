@@ -49,6 +49,8 @@
 		AE7DFA332497BD8C00C96C91 /* tutorial1.json in Resources */ = {isa = PBXBuildFile; fileRef = AE7DFA302497BD8C00C96C91 /* tutorial1.json */; };
 		AE7DFA382497C35E00C96C91 /* LandmarkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */; };
 		AE7DFA3C2497CC0C00C96C91 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFA3B2497CC0C00C96C91 /* Landmark.swift */; };
+		AED17B8724F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */; };
+		AED17B8924F72B0700E76414 /* FacebookSimpleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */; };
 		B2CFADB706FA43D68E2DF392 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68756D9721194E7B832577AC /* Todo+Schema.swift */; };
 		C5B064646F964C66917794B4 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899C6886F0F940F1B591AFC0 /* AmplifyModels.swift */; };
 		E09F5E7E8B7F406DA3558875 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8379B042C12474B90B32597 /* Priority.swift */; };
@@ -156,6 +158,8 @@
 		AE7DFA302497BD8C00C96C91 /* tutorial1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial1.json; sourceTree = "<group>"; };
 		AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRowView.swift; path = "AppleSDKTips/Application/Presentation/SwiftUI-Tutorial1/Views/LandmarkRowView.swift"; sourceTree = SOURCE_ROOT; };
 		AE7DFA3B2497CC0C00C96C91 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FacebookSimpleLoginViewController.storyboard; sourceTree = "<group>"; };
+		AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookSimpleLoginViewController.swift; sourceTree = "<group>"; };
 		BF45BF5491F10AF4AF68FD69 /* Pods-AppleSDKTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips.release.xcconfig"; sourceTree = "<group>"; };
 		D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTipsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76EC04D5B3D292774744A54 /* Pods-AppleSDKTipsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTipsTests.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTipsTests/Pods-AppleSDKTipsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -339,6 +343,7 @@
 		3988CBFA1F17A01800F29FA1 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				AED17B8224F72A7B00E76414 /* FacebookSDK */,
 				397E13D7247AB65A00688DE2 /* SwiftUI-Tutorial1 */,
 				394F21AD21DDF40D003F1E88 /* AVFoundation */,
 				394F21B821DE040B003F1E88 /* UIKit */,
@@ -625,6 +630,23 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		AED17B8224F72A7B00E76414 /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AED17B8524F72AB500E76414 /* SimpleLogin */,
+			);
+			path = FacebookSDK;
+			sourceTree = "<group>";
+		};
+		AED17B8524F72AB500E76414 /* SimpleLogin */ = {
+			isa = PBXGroup;
+			children = (
+				AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */,
+				AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */,
+			);
+			path = SimpleLogin;
+			sourceTree = "<group>";
+		};
 		AEE3CD7E24951B4400C9AA9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -784,6 +806,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3953DB441E6B0951007BDD49 /* CollectionView1ViewController.storyboard in Resources */,
+				AED17B8724F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard in Resources */,
 				39BA76C31E9687F000810E47 /* ZoomingSample1ViewController.storyboard in Resources */,
 				394F21B521DDF553003F1E88 /* README.md in Resources */,
 				39B499631DC7922C00EDACB2 /* LaunchScreen.storyboard in Resources */,
@@ -946,6 +969,7 @@
 				3953DB491E6B0ECB007BDD49 /* CollectionView1Cell.swift in Sources */,
 				AE50B48324A55C59003B9F3C /* ImageDataSource.swift in Sources */,
 				397E141A247AC5CE00688DE2 /* CircleImageView.swift in Sources */,
+				AED17B8924F72B0700E76414 /* FacebookSimpleLoginViewController.swift in Sources */,
 				AE7DFA382497C35E00C96C91 /* LandmarkRowView.swift in Sources */,
 				39BA76C11E9687AE00810E47 /* ZoomingSample1ViewController.swift in Sources */,
 				39BA76C61E968A9B00810E47 /* ZoomingSample1ScrollView.swift in Sources */,
