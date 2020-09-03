@@ -14,10 +14,21 @@ class FacebookSimpleLoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        let loginButton = FBLoginButton()
-        loginButton.center = view.center
-        view.addSubview(loginButton)
+    }
+    
+    /// Facebook ログインボタンを選択した
+    /// - Parameter sender: UIButton
+    @IBAction func didTapFacebookLoginButton(_ sender: UIButton) {
+
+        //T##LoginManagerLoginResultBlock?##LoginManagerLoginResultBlock?##(LoginManagerLoginResult?, Error?) -> Void
+        let permissions: [String] = []
+        let facebookLoginManager = LoginManager()
+        
+        facebookLoginManager.logIn(permissions: permissions, from: self){ result, error in
+            print("result: %s", result as Any)
+        }
+        
+        
     }
     
 
