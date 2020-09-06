@@ -25,7 +25,30 @@ class FacebookSimpleLoginViewController: UIViewController {
         let facebookLoginManager = LoginManager()
         
         facebookLoginManager.logIn(permissions: permissions, from: self){ result, error in
-            print("result: %s", result as Any)
+            
+            /*
+             /**
+               the set of permissions granted by the user in the associated request.
+
+              inspect the token's permissions set for a complete list.
+              */
+             @property (copy, nonatomic) NSSet<NSString *> *grantedPermissions;
+
+             /**
+               the set of permissions declined by the user in the associated request.
+
+              inspect the token's permissions set for a complete list.
+              */
+             @property (copy, nonatomic) NSSet<NSString *> *declinedPermissions;
+             */
+            
+            if ((error) != nil) {
+                 print("[FBSDK Debug]Process error");
+            } else if ((result?.isCancelled) == true) {
+                 print("[FBSDK Debug]Cancelled");
+            } else {
+                 print("[FBSDK Debug]Logged in");
+            }
         }
         
         
