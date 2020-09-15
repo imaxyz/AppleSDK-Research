@@ -7,7 +7,12 @@
 #import <PropertyListComponent/PropertyListComponent.h>
 
 /* Swiftで実装したクラスをObj-Cから使用するための宣言 */
+#if DEBUG
+#import "AppleSDKTipsDev-Swift.h"
+#else
 #import "AppleSDKTips-Swift.h"
+#endif
+
 
 @interface TopMenuList() {
     NSMutableArray* _sectionKeyStringArray;

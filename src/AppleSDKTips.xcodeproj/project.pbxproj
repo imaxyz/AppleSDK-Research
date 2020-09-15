@@ -41,6 +41,49 @@
 		49DE3D1F1B0D328F5C2AAA37 /* Pods_AppleSDKTipsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */; };
 		89CF760182F841CAA80FC598 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 754630730C3347E38A063533 /* amplifyconfiguration.json */; };
 		8E94BB7AF4A8488B9CC52205 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 090CA59BC19C4245AC349163 /* awsconfiguration.json */; };
+		AE05B7182511738500100E1E /* TopMenuList.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D0291C1DCCD88000ADAE35 /* TopMenuList.m */; };
+		AE05B7192511738500100E1E /* CollectionView1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */; };
+		AE05B71A2511738500100E1E /* ImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50B48224A55C59003B9F3C /* ImageDataSource.swift */; };
+		AE05B71B2511738500100E1E /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E1419247AC5CE00688DE2 /* CircleImageView.swift */; };
+		AE05B71C2511738500100E1E /* FacebookSimpleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */; };
+		AE05B71D2511738500100E1E /* LandmarkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */; };
+		AE05B71E2511738500100E1E /* ZoomingSample1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BA76C01E9687AE00810E47 /* ZoomingSample1ViewController.swift */; };
+		AE05B71F2511738500100E1E /* ZoomingSample1ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BA76C51E968A9B00810E47 /* ZoomingSample1ScrollView.swift */; };
+		AE05B7202511738500100E1E /* TopMenuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A098841DCA494100046D54 /* TopMenuListViewController.swift */; };
+		AE05B7212511738500100E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B499581DC7922C00EDACB2 /* AppDelegate.swift */; };
+		AE05B7222511738500100E1E /* SomeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E3AB9D2485347500B3ED15 /* SomeMapView.swift */; };
+		AE05B7232511738500100E1E /* TopMenuListTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390178CC1DCC11870042D29A /* TopMenuListTableViewDataSource.swift */; };
+		AE05B7242511738500100E1E /* CollectionView1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953DB451E6B09D4007BDD49 /* CollectionView1ViewController.swift */; };
+		AE05B7252511738500100E1E /* TopMenuListViewControllerUITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390178CE1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift */; };
+		AE05B7262511738500100E1E /* LandmarkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E1417247ABE1700688DE2 /* LandmarkDetailView.swift */; };
+		AE05B7272511738500100E1E /* TopMenuListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D029111DCCC22300ADAE35 /* TopMenuListTableViewCell.swift */; };
+		AE05B7282511738500100E1E /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFA3B2497CC0C00C96C91 /* Landmark.swift */; };
+		AE05B7292511738500100E1E /* BasicPlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394F21B621DDF9D8003F1E88 /* BasicPlaybackViewController.swift */; };
+		AE05B72A2511738500100E1E /* TopMenuEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B4998D1DC7964800EDACB2 /* TopMenuEntity.swift */; };
+		AE05B72B2511738500100E1E /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899C6886F0F940F1B591AFC0 /* AmplifyModels.swift */; };
+		AE05B72C2511738500100E1E /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8379B042C12474B90B32597 /* Priority.swift */; };
+		AE05B72D2511738500100E1E /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7439AB21683C481C85721B40 /* Todo.swift */; };
+		AE05B72E2511738500100E1E /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68756D9721194E7B832577AC /* Todo+Schema.swift */; };
+		AE05B7302511738500100E1E /* PropertyListComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; };
+		AE05B7312511738500100E1E /* Pods_AppleSDKTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */; };
+		AE05B7322511738500100E1E /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = AE05B7122511738500100E1E /* FacebookLogin */; };
+		AE05B7332511738500100E1E /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = AE05B7142511738500100E1E /* FacebookCore */; };
+		AE05B7352511738500100E1E /* CollectionView1ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3953DB431E6B0951007BDD49 /* CollectionView1ViewController.storyboard */; };
+		AE05B7362511738500100E1E /* FacebookSimpleLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */; };
+		AE05B7372511738500100E1E /* ZoomingSample1ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BA76C21E9687F000810E47 /* ZoomingSample1ViewController.storyboard */; };
+		AE05B7382511738500100E1E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 394F21B421DDF553003F1E88 /* README.md */; };
+		AE05B7392511738500100E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B499611DC7922C00EDACB2 /* LaunchScreen.storyboard */; };
+		AE05B73A2511738500100E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B4995F1DC7922C00EDACB2 /* Assets.xcassets */; };
+		AE05B73B2511738500100E1E /* Verification20180403TempView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 390B546B2072BE59009CBD24 /* Verification20180403TempView.xib */; };
+		AE05B73C2511738500100E1E /* tutorial1.json in Resources */ = {isa = PBXBuildFile; fileRef = AE7DFA302497BD8C00C96C91 /* tutorial1.json */; };
+		AE05B73D2511738500100E1E /* ZoomingSample1ScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39BA76CC1E9691F700810E47 /* ZoomingSample1ScrollView.xib */; };
+		AE05B73E2511738500100E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B4995C1DC7922C00EDACB2 /* Main.storyboard */; };
+		AE05B73F2511738500100E1E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39B7A18F1DCB706E005DB322 /* topMenu.plist */; };
+		AE05B7402511738500100E1E /* BasicPlaybackViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394F21B221DDF445003F1E88 /* BasicPlaybackViewController.storyboard */; };
+		AE05B7412511738500100E1E /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 754630730C3347E38A063533 /* amplifyconfiguration.json */; };
+		AE05B7422511738500100E1E /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 090CA59BC19C4245AC349163 /* awsconfiguration.json */; };
+		AE05B7442511738500100E1E /* PropertyListComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE05B74E251173ED00100E1E /* Info-dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE05B74D251173ED00100E1E /* Info-dev.plist */; };
 		AE34EBAF249524E300BD2B3F /* PropertyListComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; };
 		AE34EBB0249524E300BD2B3F /* PropertyListComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AE50B48324A55C59003B9F3C /* ImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50B48224A55C59003B9F3C /* ImageDataSource.swift */; };
@@ -95,6 +138,17 @@
 			dstSubfolderSpec = 10;
 			files = (
 				AE34EBB0249524E300BD2B3F /* PropertyListComponent.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE05B7432511738500100E1E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AE05B7442511738500100E1E /* PropertyListComponent.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,6 +208,8 @@
 		76F538E0EC6DD86CCB7C8C5A /* Pods-AppleSDKTipsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTipsTests.debug.xcconfig"; path = "Target Support Files/Pods-AppleSDKTipsTests/Pods-AppleSDKTipsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D8857339530240312B931A6 /* Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips-AppleSDKTipsUITests/Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		899C6886F0F940F1B591AFC0 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		AE05B7492511738500100E1E /* AppleSDKTipsDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSDKTipsDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE05B74D251173ED00100E1E /* Info-dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-dev.plist"; sourceTree = "<group>"; };
 		AE50B48224A55C59003B9F3C /* ImageDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataSource.swift; sourceTree = "<group>"; };
 		AE7DFA302497BD8C00C96C91 /* tutorial1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial1.json; sourceTree = "<group>"; };
 		AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRowView.swift; path = "AppleSDKTips/Application/Presentation/SwiftUI-Tutorial1/Views/LandmarkRowView.swift"; sourceTree = SOURCE_ROOT; };
@@ -193,6 +249,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				34F05AD0A11EB963AEDEFDDD /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE05B72F2511738500100E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE05B7302511738500100E1E /* PropertyListComponent.framework in Frameworks */,
+				AE05B7312511738500100E1E /* Pods_AppleSDKTips.framework in Frameworks */,
+				AE05B7322511738500100E1E /* FacebookLogin in Frameworks */,
+				AE05B7332511738500100E1E /* FacebookCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +502,7 @@
 				39B499551DC7922C00EDACB2 /* AppleSDKTips.app */,
 				39B499691DC7922C00EDACB2 /* AppleSDKTipsTests.xctest */,
 				39B499741DC7922C00EDACB2 /* AppleSDKTipsUITests.xctest */,
+				AE05B7492511738500100E1E /* AppleSDKTipsDev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -474,6 +542,7 @@
 			isa = PBXGroup;
 			children = (
 				39B499641DC7922C00EDACB2 /* Info.plist */,
+				AE05B74D251173ED00100E1E /* Info-dev.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -723,6 +792,31 @@
 			productReference = 39B499741DC7922C00EDACB2 /* AppleSDKTipsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AE05B7112511738500100E1E /* AppleSDKTipsDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE05B7462511738500100E1E /* Build configuration list for PBXNativeTarget "AppleSDKTipsDev" */;
+			buildPhases = (
+				AE05B7152511738500100E1E /* [CP] Check Pods Manifest.lock */,
+				AE05B7162511738500100E1E /* Run Amplify Tools */,
+				AE05B7172511738500100E1E /* Sources */,
+				AE05B72F2511738500100E1E /* Frameworks */,
+				AE05B7342511738500100E1E /* Resources */,
+				AE05B7432511738500100E1E /* Embed Frameworks */,
+				AE05B7452511738500100E1E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleSDKTipsDev;
+			packageProductDependencies = (
+				AE05B7122511738500100E1E /* FacebookLogin */,
+				AE05B7142511738500100E1E /* FacebookCore */,
+			);
+			productName = AppleSDKTips;
+			productReference = AE05B7492511738500100E1E /* AppleSDKTipsDev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -777,6 +871,7 @@
 			projectRoot = "";
 			targets = (
 				39B499541DC7922C00EDACB2 /* AppleSDKTips */,
+				AE05B7112511738500100E1E /* AppleSDKTipsDev */,
 				39B499681DC7922C00EDACB2 /* AppleSDKTipsTests */,
 				39B499731DC7922C00EDACB2 /* AppleSDKTipsUITests */,
 			);
@@ -834,6 +929,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE05B7342511738500100E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE05B7352511738500100E1E /* CollectionView1ViewController.storyboard in Resources */,
+				AE05B7362511738500100E1E /* FacebookSimpleLoginViewController.storyboard in Resources */,
+				AE05B7372511738500100E1E /* ZoomingSample1ViewController.storyboard in Resources */,
+				AE05B7382511738500100E1E /* README.md in Resources */,
+				AE05B7392511738500100E1E /* LaunchScreen.storyboard in Resources */,
+				AE05B73A2511738500100E1E /* Assets.xcassets in Resources */,
+				AE05B73B2511738500100E1E /* Verification20180403TempView.xib in Resources */,
+				AE05B74E251173ED00100E1E /* Info-dev.plist in Resources */,
+				AE05B73C2511738500100E1E /* tutorial1.json in Resources */,
+				AE05B73D2511738500100E1E /* ZoomingSample1ScrollView.xib in Resources */,
+				AE05B73E2511738500100E1E /* Main.storyboard in Resources */,
+				AE05B73F2511738500100E1E /* topMenu.plist in Resources */,
+				AE05B7402511738500100E1E /* BasicPlaybackViewController.storyboard in Resources */,
+				AE05B7412511738500100E1E /* amplifyconfiguration.json in Resources */,
+				AE05B7422511738500100E1E /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -941,6 +1058,63 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AE05B7152511738500100E1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppleSDKTips-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE05B7162511738500100E1E /* Run Amplify Tools */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Amplify Tools";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/AmplifyTools/amplify-tools.sh\n";
+		};
+		AE05B7452511738500100E1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CE450EEE8FFE858BEA818190 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1004,6 +1178,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				39B499791DC7922C00EDACB2 /* AppleSDKTipsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE05B7172511738500100E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE05B7182511738500100E1E /* TopMenuList.m in Sources */,
+				AE05B7192511738500100E1E /* CollectionView1Cell.swift in Sources */,
+				AE05B71A2511738500100E1E /* ImageDataSource.swift in Sources */,
+				AE05B71B2511738500100E1E /* CircleImageView.swift in Sources */,
+				AE05B71C2511738500100E1E /* FacebookSimpleLoginViewController.swift in Sources */,
+				AE05B71D2511738500100E1E /* LandmarkRowView.swift in Sources */,
+				AE05B71E2511738500100E1E /* ZoomingSample1ViewController.swift in Sources */,
+				AE05B71F2511738500100E1E /* ZoomingSample1ScrollView.swift in Sources */,
+				AE05B7202511738500100E1E /* TopMenuListViewController.swift in Sources */,
+				AE05B7212511738500100E1E /* AppDelegate.swift in Sources */,
+				AE05B7222511738500100E1E /* SomeMapView.swift in Sources */,
+				AE05B7232511738500100E1E /* TopMenuListTableViewDataSource.swift in Sources */,
+				AE05B7242511738500100E1E /* CollectionView1ViewController.swift in Sources */,
+				AE05B7252511738500100E1E /* TopMenuListViewControllerUITableViewDelegate.swift in Sources */,
+				AE05B7262511738500100E1E /* LandmarkDetailView.swift in Sources */,
+				AE05B7272511738500100E1E /* TopMenuListTableViewCell.swift in Sources */,
+				AE05B7282511738500100E1E /* Landmark.swift in Sources */,
+				AE05B7292511738500100E1E /* BasicPlaybackViewController.swift in Sources */,
+				AE05B72A2511738500100E1E /* TopMenuEntity.swift in Sources */,
+				AE05B72B2511738500100E1E /* AmplifyModels.swift in Sources */,
+				AE05B72C2511738500100E1E /* Priority.swift in Sources */,
+				AE05B72D2511738500100E1E /* Todo.swift in Sources */,
+				AE05B72E2511738500100E1E /* Todo+Schema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1085,7 +1289,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+					"DEBUG=0",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1172,6 +1376,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AppleSDKTips/Framework/WWW",
 				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = AppleSDKTips/Framework/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1308,6 +1513,73 @@
 			};
 			name = Release;
 		};
+		AE05B7472511738500100E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E491C33B34005C2C736E2E7 /* Pods-AppleSDKTips.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AppleSDKTips/AppleSDKTips.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CustomBuildParameters = Develop;
+				DEVELOPMENT_TEAM = KCQC4QP985;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppleSDKTips/Framework/WWW",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "AppleSDKTips/Framework/Resource/Info-dev.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imaxyz.AppleSDKTips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AppleSDKTips/AppleSDKTips-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AE05B7482511738500100E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF45BF5491F10AF4AF68FD69 /* Pods-AppleSDKTips.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AppleSDKTips/AppleSDKTips.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CustomBuildParameters = Develop;
+				DEVELOPMENT_TEAM = KCQC4QP985;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppleSDKTips/Framework/WWW",
+				);
+				INFOPLIST_FILE = "AppleSDKTips/Framework/Resource/Info-dev.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imaxyz.AppleSDKTips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AppleSDKTips/AppleSDKTips-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1347,9 +1619,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		AE05B7462511738500100E1E /* Build configuration list for PBXNativeTarget "AppleSDKTipsDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE05B7472511738500100E1E /* Debug */,
+				AE05B7482511738500100E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		AE05B7132511738500100E1E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.1;
+			};
+		};
 		AE68254D24F4847800B6A35A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
@@ -1361,6 +1650,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		AE05B7122511738500100E1E /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE05B7132511738500100E1E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		AE05B7142511738500100E1E /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE05B7132511738500100E1E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
 		AE68254E24F4847800B6A35A /* FacebookLogin */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = AE68254D24F4847800B6A35A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;

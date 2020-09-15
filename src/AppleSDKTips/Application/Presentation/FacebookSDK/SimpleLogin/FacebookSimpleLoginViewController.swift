@@ -23,7 +23,8 @@ class FacebookSimpleLoginViewController: UIViewController {
         // Facebook Login ManagerでFacebookログイン
         let permissions: [String] = []
         let facebookLoginManager = LoginManager()
-        
+
+        // 注: Info.plistにFacebook AppIDを設定していないと、SDKから例外が発行される
         facebookLoginManager.logIn(permissions: permissions, from: self){ result, error in
             
             if ((error) != nil) {
@@ -37,8 +38,6 @@ class FacebookSimpleLoginViewController: UIViewController {
                 })
             }
         }
-        
-        
     }
     
 
