@@ -35,18 +35,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         } catch {
            print("xxx Could not initialize Amplify: \(error)")
         }
-        
-//        Settings.graphAPIVersion = "v7.1.1"
-//        FBSDKCoreKit.graphAPIVersion
+
+        // Facebook SDKのバージョンをログに出力
         print("[FBSDK sdkVersion]" + Settings.sdkVersion)
         print("[FBSDK defaultGraphAPIVersion]" + Settings.defaultGraphAPIVersion)
-        
-//        [FBSettings setLoggingBehavior:
-////        [NSSet setWithObject:FBSDKLoggingBehaviorGraphAPIDebugInfo]];
-//        Settings.addLoggingBehavior(LoggingBehaviors.INCLUDE_ACCESS_TOKENS);
-        
-//        FBSDKGraphRequest *request = [[FBSDKGraphRequest alloc] initWithGraphPath:[NSString stringWithFormat:@"%@/model_asset", [FBSDKSettings appID]] parameters:@{@"fields": @""}];
-        
+                
         // 以下のコードは、Facebook SDKにつながっている。Facebook SDKを起動する。
         ApplicationDelegate.shared.application(
             application,
