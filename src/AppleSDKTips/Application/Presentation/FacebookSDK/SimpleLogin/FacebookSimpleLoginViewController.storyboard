@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EFB-wB-nWq">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="41V-w6-Suu">
+            <objects>
+                <navigationController id="EFB-wB-nWq" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bWl-M6-5uQ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BnX-8G-Yae" kind="relationship" relationship="rootViewController" id="mnH-Ud-Na2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U7Y-Ct-IrA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="413" y="-246"/>
+        </scene>
+        <!--Facebook Simple Login View Controller-->
+        <scene sceneID="njy-Ll-di1">
+            <objects>
+                <viewController id="BnX-8G-Yae" customClass="FacebookSimpleLoginViewController" customModule="AppleSDKTips" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jB4-8y-L5A">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFx-Yx-QSC">
+                                <rect key="frame" x="94.5" y="422" width="225" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <state key="normal" title="Facebook Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapFacebookLoginButton:" destination="BnX-8G-Yae" eventType="touchUpInside" id="Tlz-tO-5MT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dFx-Yx-QSC" firstAttribute="centerY" secondItem="jB4-8y-L5A" secondAttribute="centerY" id="SDn-jO-vPQ"/>
+                            <constraint firstItem="dFx-Yx-QSC" firstAttribute="centerX" secondItem="jB4-8y-L5A" secondAttribute="centerX" id="zu9-1g-HO5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Q1j-6T-gZZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xd1-uY-nVb">
+                        <barButtonItem key="leftBarButtonItem" title="戻る" id="pRB-ua-Cto">
+                            <connections>
+                                <segue destination="WzD-wC-odW" kind="unwind" unwindAction="backToTop:" id="CEe-fc-BEU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ODL-c4-lHY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="WzD-wC-odW" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1405.7971014492755" y="-246.42857142857142"/>
+        </scene>
+    </scenes>
+</document>

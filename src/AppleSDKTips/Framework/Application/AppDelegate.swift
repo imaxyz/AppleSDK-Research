@@ -10,13 +10,18 @@ import UIKit
 import Amplify
 import AmplifyPlugins
 
+// Facebook SDK関連のライブラリをインポート
+import FBSDKCoreKit
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
+    {
 
         // Amplifyのログレベルを変更
         Amplify.Logging.logLevel = .debug
@@ -30,8 +35,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         } catch {
            print("xxx Could not initialize Amplify: \(error)")
         }
+
+        // Facebook SDKのバージョンをログに出力
+        print("[FBSDK sdkVersion]" + Settings.sdkVersion)
+        print("[FBSDK defaultGraphAPIVersion]" + Settings.defaultGraphAPIVersion)
+                
+        // 以下のコードは、Facebook SDKにつながっている。Facebook SDKを起動する。
+        ApplicationDelegate.shared.application(
+            application,
+            didFinishLaunchingWithOptions: launchOptions
+        )
         
         return true
+    }
+    
+    func application(_ application: UIApplication,open url: URL,sourceApplication: String?,annotation: Any) -> Bool {
+        //Facebook SDKのコードを実行する
+        return ApplicationDelegate.shared.application(application, open: url, sourceApplication: sourceApplication, annotation: annotation)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -44,6 +64,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
+        //Facebook SDKのコードを実行する
+        AppEvents.activateApp()
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
