@@ -352,7 +352,8 @@
 		394F21B821DE040B003F1E88 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				AEAD9443251C151300C0DCD1 /* ScrollView */,
+				AEAD9448251C174B00C0DCD1 /* CollectionViewSample */,
+				AEAD9443251C151300C0DCD1 /* ScrollViewSample */,
 				3988CC031F17A17C00F29FA1 /* View */,
 				3988CBFE1F17A11400F29FA1 /* ViewController */,
 			);
@@ -422,7 +423,6 @@
 		3988CBFE1F17A11400F29FA1 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3953DB451E6B09D4007BDD49 /* CollectionView1ViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -430,7 +430,6 @@
 		3988CBFF1F17A11F00F29FA1 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				3953DB431E6B0951007BDD49 /* CollectionView1ViewController.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -446,7 +445,6 @@
 		3988CC021F17A14600F29FA1 /* CollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */,
 			);
 			path = CollectionViewCell;
 			sourceTree = "<group>";
@@ -688,7 +686,7 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		AEAD9443251C151300C0DCD1 /* ScrollView */ = {
+		AEAD9443251C151300C0DCD1 /* ScrollViewSample */ = {
 			isa = PBXGroup;
 			children = (
 				39BA76C01E9687AE00810E47 /* ZoomingSample1ViewController.swift */,
@@ -696,7 +694,17 @@
 				39BA76CC1E9691F700810E47 /* ZoomingSample1ScrollView.xib */,
 				39BA76C21E9687F000810E47 /* ZoomingSample1ViewController.storyboard */,
 			);
-			path = ScrollView;
+			path = ScrollViewSample;
+			sourceTree = "<group>";
+		};
+		AEAD9448251C174B00C0DCD1 /* CollectionViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				3953DB451E6B09D4007BDD49 /* CollectionView1ViewController.swift */,
+				3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */,
+				3953DB431E6B0951007BDD49 /* CollectionView1ViewController.storyboard */,
+			);
+			path = CollectionViewSample;
 			sourceTree = "<group>";
 		};
 		AED17B8224F72A7B00E76414 /* FacebookSDK */ = {
