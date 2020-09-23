@@ -352,6 +352,7 @@
 		394F21B821DE040B003F1E88 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				AEAD9443251C151300C0DCD1 /* ScrollView */,
 				3988CC031F17A17C00F29FA1 /* View */,
 				3988CBFE1F17A11400F29FA1 /* ViewController */,
 			);
@@ -422,7 +423,6 @@
 			isa = PBXGroup;
 			children = (
 				3953DB451E6B09D4007BDD49 /* CollectionView1ViewController.swift */,
-				39BA76C01E9687AE00810E47 /* ZoomingSample1ViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -430,7 +430,6 @@
 		3988CBFF1F17A11F00F29FA1 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				39BA76C21E9687F000810E47 /* ZoomingSample1ViewController.storyboard */,
 				3953DB431E6B0951007BDD49 /* CollectionView1ViewController.storyboard */,
 			);
 			path = Storyboard;
@@ -439,18 +438,9 @@
 		3988CC001F17A13A00F29FA1 /* Xib */ = {
 			isa = PBXGroup;
 			children = (
-				39BA76CC1E9691F700810E47 /* ZoomingSample1ScrollView.xib */,
 				390B546B2072BE59009CBD24 /* Verification20180403TempView.xib */,
 			);
 			path = Xib;
-			sourceTree = "<group>";
-		};
-		3988CC011F17A14000F29FA1 /* ScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				39BA76C51E968A9B00810E47 /* ZoomingSample1ScrollView.swift */,
-			);
-			path = ScrollView;
 			sourceTree = "<group>";
 		};
 		3988CC021F17A14600F29FA1 /* CollectionViewCell */ = {
@@ -465,7 +455,6 @@
 			isa = PBXGroup;
 			children = (
 				3988CC021F17A14600F29FA1 /* CollectionViewCell */,
-				3988CC011F17A14000F29FA1 /* ScrollView */,
 				3988CC001F17A13A00F29FA1 /* Xib */,
 				3988CBFF1F17A11F00F29FA1 /* Storyboard */,
 			);
@@ -699,6 +688,17 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		AEAD9443251C151300C0DCD1 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				39BA76C01E9687AE00810E47 /* ZoomingSample1ViewController.swift */,
+				39BA76C51E968A9B00810E47 /* ZoomingSample1ScrollView.swift */,
+				39BA76CC1E9691F700810E47 /* ZoomingSample1ScrollView.xib */,
+				39BA76C21E9687F000810E47 /* ZoomingSample1ViewController.storyboard */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
 		AED17B8224F72A7B00E76414 /* FacebookSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -710,8 +710,8 @@
 		AED17B8524F72AB500E76414 /* SimpleLogin */ = {
 			isa = PBXGroup;
 			children = (
-				AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */,
 				AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */,
+				AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */,
 			);
 			path = SimpleLogin;
 			sourceTree = "<group>";
