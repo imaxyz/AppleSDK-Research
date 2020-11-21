@@ -45,7 +45,6 @@
 		AE05B71A2511738500100E1E /* ImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50B48224A55C59003B9F3C /* ImageDataSource.swift */; };
 		AE05B71B2511738500100E1E /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E1419247AC5CE00688DE2 /* CircleImageView.swift */; };
 		AE05B71C2511738500100E1E /* FacebookSimpleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */; };
-		AE05B71D2511738500100E1E /* LandmarkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */; };
 		AE05B71E2511738500100E1E /* ZoomingSample1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BA76C01E9687AE00810E47 /* ZoomingSample1ViewController.swift */; };
 		AE05B71F2511738500100E1E /* ZoomingSample1ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BA76C51E968A9B00810E47 /* ZoomingSample1ScrollView.swift */; };
 		AE05B7202511738500100E1E /* TopMenuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A098841DCA494100046D54 /* TopMenuListViewController.swift */; };
@@ -88,10 +87,10 @@
 		AE68254F24F4847800B6A35A /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = AE68254E24F4847800B6A35A /* FacebookLogin */; };
 		AE68255124F4847800B6A35A /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = AE68255024F4847800B6A35A /* FacebookCore */; };
 		AE7DFA332497BD8C00C96C91 /* tutorial1.json in Resources */ = {isa = PBXBuildFile; fileRef = AE7DFA302497BD8C00C96C91 /* tutorial1.json */; };
-		AE7DFA382497C35E00C96C91 /* LandmarkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */; };
 		AE7DFA3C2497CC0C00C96C91 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFA3B2497CC0C00C96C91 /* Landmark.swift */; };
 		AED17B8724F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */; };
 		AED17B8924F72B0700E76414 /* FacebookSimpleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */; };
+		AED3B56E2568F41A00C65B2A /* LandmarkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3B56B2568F41A00C65B2A /* LandmarkRowView.swift */; };
 		B2CFADB706FA43D68E2DF392 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68756D9721194E7B832577AC /* Todo+Schema.swift */; };
 		C5B064646F964C66917794B4 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899C6886F0F940F1B591AFC0 /* AmplifyModels.swift */; };
 		E09F5E7E8B7F406DA3558875 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8379B042C12474B90B32597 /* Priority.swift */; };
@@ -209,10 +208,10 @@
 		AE05B74D251173ED00100E1E /* Info-dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-dev.plist"; sourceTree = "<group>"; };
 		AE50B48224A55C59003B9F3C /* ImageDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataSource.swift; sourceTree = "<group>"; };
 		AE7DFA302497BD8C00C96C91 /* tutorial1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial1.json; sourceTree = "<group>"; };
-		AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRowView.swift; path = "AppleSDKTips/Application/Presentation/SwiftUI-Tutorial1/Views/LandmarkRowView.swift"; sourceTree = SOURCE_ROOT; };
 		AE7DFA3B2497CC0C00C96C91 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FacebookSimpleLoginViewController.storyboard; sourceTree = "<group>"; };
 		AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookSimpleLoginViewController.swift; sourceTree = "<group>"; };
+		AED3B56B2568F41A00C65B2A /* LandmarkRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkRowView.swift; sourceTree = "<group>"; };
 		BF45BF5491F10AF4AF68FD69 /* Pods-AppleSDKTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips.release.xcconfig"; sourceTree = "<group>"; };
 		D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTipsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76EC04D5B3D292774744A54 /* Pods-AppleSDKTipsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTipsTests.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTipsTests/Pods-AppleSDKTipsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -619,8 +618,8 @@
 			isa = PBXGroup;
 			children = (
 				397E1417247ABE1700688DE2 /* LandmarkDetailView.swift */,
+				AED3B56B2568F41A00C65B2A /* LandmarkRowView.swift */,
 				397E1419247AC5CE00688DE2 /* CircleImageView.swift */,
-				AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */,
 				39E3AB9D2485347500B3ED15 /* SomeMapView.swift */,
 			);
 			path = Views;
@@ -1106,7 +1105,7 @@
 				AE50B48324A55C59003B9F3C /* ImageDataSource.swift in Sources */,
 				397E141A247AC5CE00688DE2 /* CircleImageView.swift in Sources */,
 				AED17B8924F72B0700E76414 /* FacebookSimpleLoginViewController.swift in Sources */,
-				AE7DFA382497C35E00C96C91 /* LandmarkRowView.swift in Sources */,
+				AED3B56E2568F41A00C65B2A /* LandmarkRowView.swift in Sources */,
 				39BA76C11E9687AE00810E47 /* ZoomingSample1ViewController.swift in Sources */,
 				39BA76C61E968A9B00810E47 /* ZoomingSample1ScrollView.swift in Sources */,
 				39A098851DCA494100046D54 /* TopMenuListViewController.swift in Sources */,
@@ -1152,7 +1151,6 @@
 				AE05B71A2511738500100E1E /* ImageDataSource.swift in Sources */,
 				AE05B71B2511738500100E1E /* CircleImageView.swift in Sources */,
 				AE05B71C2511738500100E1E /* FacebookSimpleLoginViewController.swift in Sources */,
-				AE05B71D2511738500100E1E /* LandmarkRowView.swift in Sources */,
 				AE05B71E2511738500100E1E /* ZoomingSample1ViewController.swift in Sources */,
 				AE05B71F2511738500100E1E /* ZoomingSample1ScrollView.swift in Sources */,
 				AE05B7202511738500100E1E /* TopMenuListViewController.swift in Sources */,
