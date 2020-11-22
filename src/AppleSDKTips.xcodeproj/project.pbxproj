@@ -91,6 +91,8 @@
 		AED17B8724F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */; };
 		AED17B8924F72B0700E76414 /* FacebookSimpleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */; };
 		AED3B56E2568F41A00C65B2A /* LandmarkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3B56B2568F41A00C65B2A /* LandmarkRowView.swift */; };
+		AED3B5B12569D02E00C65B2A /* LandmarksSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3B5B02569D02E00C65B2A /* LandmarksSwiftUIView.swift */; };
+		AED3B5B22569D02E00C65B2A /* LandmarksSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3B5B02569D02E00C65B2A /* LandmarksSwiftUIView.swift */; };
 		B2CFADB706FA43D68E2DF392 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68756D9721194E7B832577AC /* Todo+Schema.swift */; };
 		C5B064646F964C66917794B4 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899C6886F0F940F1B591AFC0 /* AmplifyModels.swift */; };
 		E09F5E7E8B7F406DA3558875 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8379B042C12474B90B32597 /* Priority.swift */; };
@@ -212,6 +214,7 @@
 		AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FacebookSimpleLoginViewController.storyboard; sourceTree = "<group>"; };
 		AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookSimpleLoginViewController.swift; sourceTree = "<group>"; };
 		AED3B56B2568F41A00C65B2A /* LandmarkRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkRowView.swift; sourceTree = "<group>"; };
+		AED3B5B02569D02E00C65B2A /* LandmarksSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksSwiftUIView.swift; sourceTree = "<group>"; };
 		BF45BF5491F10AF4AF68FD69 /* Pods-AppleSDKTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips.release.xcconfig"; sourceTree = "<group>"; };
 		D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTipsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76EC04D5B3D292774744A54 /* Pods-AppleSDKTipsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTipsTests.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTipsTests/Pods-AppleSDKTipsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -406,6 +409,7 @@
 		3988CBFA1F17A01800F29FA1 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				AED3B5742569CF3700C65B2A /* SwiftUI-Tutorial */,
 				AED17B8224F72A7B00E76414 /* FacebookSDK */,
 				397E13D7247AB65A00688DE2 /* SwiftUI-Tutorial1 */,
 				394F21AD21DDF40D003F1E88 /* AVFoundation */,
@@ -677,6 +681,22 @@
 				AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */,
 			);
 			path = SimpleLogin;
+			sourceTree = "<group>";
+		};
+		AED3B5742569CF3700C65B2A /* SwiftUI-Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				AED3B5752569CF6100C65B2A /* Creating-and-Combining-Views */,
+			);
+			path = "SwiftUI-Tutorial";
+			sourceTree = "<group>";
+		};
+		AED3B5752569CF6100C65B2A /* Creating-and-Combining-Views */ = {
+			isa = PBXGroup;
+			children = (
+				AED3B5B02569D02E00C65B2A /* LandmarksSwiftUIView.swift */,
+			);
+			path = "Creating-and-Combining-Views";
 			sourceTree = "<group>";
 		};
 		AEE3CD7E24951B4400C9AA9D /* Products */ = {
@@ -1116,6 +1136,7 @@
 				390178CF1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift in Sources */,
 				397E1418247ABE1700688DE2 /* LandmarkDetailView.swift in Sources */,
 				39D029121DCCC22300ADAE35 /* TopMenuListTableViewCell.swift in Sources */,
+				AED3B5B12569D02E00C65B2A /* LandmarksSwiftUIView.swift in Sources */,
 				AE7DFA3C2497CC0C00C96C91 /* Landmark.swift in Sources */,
 				394F21B721DDF9D8003F1E88 /* BasicPlaybackViewController.swift in Sources */,
 				39B4998E1DC7964800EDACB2 /* TopMenuEntity.swift in Sources */,
@@ -1154,6 +1175,7 @@
 				AE05B71E2511738500100E1E /* ZoomingSample1ViewController.swift in Sources */,
 				AE05B71F2511738500100E1E /* ZoomingSample1ScrollView.swift in Sources */,
 				AE05B7202511738500100E1E /* TopMenuListViewController.swift in Sources */,
+				AED3B5B22569D02E00C65B2A /* LandmarksSwiftUIView.swift in Sources */,
 				AE05B7212511738500100E1E /* AppDelegate.swift in Sources */,
 				AE05B7222511738500100E1E /* SomeMapView.swift in Sources */,
 				AE05B7232511738500100E1E /* TopMenuListTableViewDataSource.swift in Sources */,
