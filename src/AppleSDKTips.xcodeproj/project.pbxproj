@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3375BF41BAAB4D569E327FF7 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7439AB21683C481C85721B40 /* Todo.swift */; };
 		34F05AD0A11EB963AEDEFDDD /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45442FFF4C793CFDF88FDB87 /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework */; };
 		390178CD1DCC11870042D29A /* TopMenuListTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390178CC1DCC11870042D29A /* TopMenuListTableViewDataSource.swift */; };
 		390178CF1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390178CE1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift */; };
@@ -37,10 +36,9 @@
 		39D029121DCCC22300ADAE35 /* TopMenuListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D029111DCCC22300ADAE35 /* TopMenuListTableViewCell.swift */; };
 		39D0291D1DCCD88000ADAE35 /* TopMenuList.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D0291C1DCCD88000ADAE35 /* TopMenuList.m */; };
 		39E3AB9E2485347500B3ED15 /* SomeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E3AB9D2485347500B3ED15 /* SomeMapView.swift */; };
+		46DE799C7DD6D7E6F02A3109 /* Pods_AppleSDKTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */; };
 		47267E1C8E37C04479449913 /* Pods_AppleSDKTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */; };
 		49DE3D1F1B0D328F5C2AAA37 /* Pods_AppleSDKTipsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */; };
-		89CF760182F841CAA80FC598 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 754630730C3347E38A063533 /* amplifyconfiguration.json */; };
-		8E94BB7AF4A8488B9CC52205 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 090CA59BC19C4245AC349163 /* awsconfiguration.json */; };
 		AE05B7182511738500100E1E /* TopMenuList.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D0291C1DCCD88000ADAE35 /* TopMenuList.m */; };
 		AE05B7192511738500100E1E /* CollectionView1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */; };
 		AE05B71A2511738500100E1E /* ImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50B48224A55C59003B9F3C /* ImageDataSource.swift */; };
@@ -60,12 +58,7 @@
 		AE05B7282511738500100E1E /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFA3B2497CC0C00C96C91 /* Landmark.swift */; };
 		AE05B7292511738500100E1E /* BasicPlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394F21B621DDF9D8003F1E88 /* BasicPlaybackViewController.swift */; };
 		AE05B72A2511738500100E1E /* TopMenuEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B4998D1DC7964800EDACB2 /* TopMenuEntity.swift */; };
-		AE05B72B2511738500100E1E /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899C6886F0F940F1B591AFC0 /* AmplifyModels.swift */; };
-		AE05B72C2511738500100E1E /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8379B042C12474B90B32597 /* Priority.swift */; };
-		AE05B72D2511738500100E1E /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7439AB21683C481C85721B40 /* Todo.swift */; };
-		AE05B72E2511738500100E1E /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68756D9721194E7B832577AC /* Todo+Schema.swift */; };
 		AE05B7302511738500100E1E /* PropertyListComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; };
-		AE05B7312511738500100E1E /* Pods_AppleSDKTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */; };
 		AE05B7322511738500100E1E /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = AE05B7122511738500100E1E /* FacebookLogin */; };
 		AE05B7332511738500100E1E /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = AE05B7142511738500100E1E /* FacebookCore */; };
 		AE05B7352511738500100E1E /* CollectionView1ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3953DB431E6B0951007BDD49 /* CollectionView1ViewController.storyboard */; };
@@ -80,8 +73,6 @@
 		AE05B73E2511738500100E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B4995C1DC7922C00EDACB2 /* Main.storyboard */; };
 		AE05B73F2511738500100E1E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39B7A18F1DCB706E005DB322 /* topMenu.plist */; };
 		AE05B7402511738500100E1E /* BasicPlaybackViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394F21B221DDF445003F1E88 /* BasicPlaybackViewController.storyboard */; };
-		AE05B7412511738500100E1E /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 754630730C3347E38A063533 /* amplifyconfiguration.json */; };
-		AE05B7422511738500100E1E /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 090CA59BC19C4245AC349163 /* awsconfiguration.json */; };
 		AE05B7442511738500100E1E /* PropertyListComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AE05B74E251173ED00100E1E /* Info-dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE05B74D251173ED00100E1E /* Info-dev.plist */; };
 		AE34EBAF249524E300BD2B3F /* PropertyListComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; };
@@ -94,9 +85,6 @@
 		AE7DFA3C2497CC0C00C96C91 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFA3B2497CC0C00C96C91 /* Landmark.swift */; };
 		AED17B8724F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */; };
 		AED17B8924F72B0700E76414 /* FacebookSimpleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */; };
-		B2CFADB706FA43D68E2DF392 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68756D9721194E7B832577AC /* Todo+Schema.swift */; };
-		C5B064646F964C66917794B4 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899C6886F0F940F1B591AFC0 /* AmplifyModels.swift */; };
-		E09F5E7E8B7F406DA3558875 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8379B042C12474B90B32597 /* Priority.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,8 +144,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		090CA59BC19C4245AC349163 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
-		266A205776F24025BD973933 /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifyDatasource/schema.graphql; sourceTree = "<group>"; };
 		390178CC1DCC11870042D29A /* TopMenuListTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuListTableViewDataSource.swift; sourceTree = "<group>"; };
 		390178CE1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuListViewControllerUITableViewDelegate.swift; sourceTree = "<group>"; };
 		390B546B2072BE59009CBD24 /* Verification20180403TempView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Verification20180403TempView.xib; sourceTree = "<group>"; };
@@ -199,15 +185,10 @@
 		39D0291B1DCCD88000ADAE35 /* TopMenuList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopMenuList.h; sourceTree = "<group>"; };
 		39D0291C1DCCD88000ADAE35 /* TopMenuList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopMenuList.m; sourceTree = "<group>"; };
 		39E3AB9D2485347500B3ED15 /* SomeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeMapView.swift; sourceTree = "<group>"; };
-		3E491C33B34005C2C736E2E7 /* Pods-AppleSDKTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips.debug.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips.debug.xcconfig"; sourceTree = "<group>"; };
+		3C443E8CD6003302759A067E /* Pods-AppleSDKTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips.debug.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips.debug.xcconfig"; sourceTree = "<group>"; };
 		45442FFF4C793CFDF88FDB87 /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTips_AppleSDKTipsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		519C5BB9B36C43A0AC3E2E1A /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
-		68756D9721194E7B832577AC /* Todo+Schema.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "Todo+Schema.swift"; path = "amplify/generated/models/Todo+Schema.swift"; sourceTree = "<group>"; };
-		7439AB21683C481C85721B40 /* Todo.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Todo.swift; path = amplify/generated/models/Todo.swift; sourceTree = "<group>"; };
-		754630730C3347E38A063533 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		76F538E0EC6DD86CCB7C8C5A /* Pods-AppleSDKTipsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTipsTests.debug.xcconfig"; path = "Target Support Files/Pods-AppleSDKTipsTests/Pods-AppleSDKTipsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D8857339530240312B931A6 /* Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips-AppleSDKTipsUITests/Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		899C6886F0F940F1B591AFC0 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
 		AE05B7492511738500100E1E /* AppleSDKTipsDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSDKTipsDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE05B74D251173ED00100E1E /* Info-dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-dev.plist"; sourceTree = "<group>"; };
 		AE50B48224A55C59003B9F3C /* ImageDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataSource.swift; sourceTree = "<group>"; };
@@ -216,10 +197,9 @@
 		AE7DFA3B2497CC0C00C96C91 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FacebookSimpleLoginViewController.storyboard; sourceTree = "<group>"; };
 		AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookSimpleLoginViewController.swift; sourceTree = "<group>"; };
-		BF45BF5491F10AF4AF68FD69 /* Pods-AppleSDKTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips.release.xcconfig"; sourceTree = "<group>"; };
 		D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTipsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53312AAC8CEBC37E3995542 /* Pods-AppleSDKTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips.release.xcconfig"; sourceTree = "<group>"; };
 		E76EC04D5B3D292774744A54 /* Pods-AppleSDKTipsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTipsTests.release.xcconfig"; path = "Target Support Files/Pods-AppleSDKTipsTests/Pods-AppleSDKTipsTests.release.xcconfig"; sourceTree = "<group>"; };
-		E8379B042C12474B90B32597 /* Priority.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = amplify/generated/models/Priority.swift; sourceTree = "<group>"; };
 		F60176633F148E08198A2E92 /* Pods-AppleSDKTips-AppleSDKTipsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleSDKTips-AppleSDKTipsUITests.debug.xcconfig"; path = "Target Support Files/Pods-AppleSDKTips-AppleSDKTipsUITests/Pods-AppleSDKTips-AppleSDKTipsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -233,6 +213,7 @@
 				47267E1C8E37C04479449913 /* Pods_AppleSDKTips.framework in Frameworks */,
 				AE68254F24F4847800B6A35A /* FacebookLogin in Frameworks */,
 				AE68255124F4847800B6A35A /* FacebookCore in Frameworks */,
+				46DE799C7DD6D7E6F02A3109 /* Pods_AppleSDKTips.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +238,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE05B7302511738500100E1E /* PropertyListComponent.framework in Frameworks */,
-				AE05B7312511738500100E1E /* Pods_AppleSDKTips.framework in Frameworks */,
 				AE05B7322511738500100E1E /* FacebookLogin in Frameworks */,
 				AE05B7332511738500100E1E /* FacebookCore in Frameworks */,
 			);
@@ -269,12 +249,12 @@
 		1820728AD7970814B74F679E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3E491C33B34005C2C736E2E7 /* Pods-AppleSDKTips.debug.xcconfig */,
-				BF45BF5491F10AF4AF68FD69 /* Pods-AppleSDKTips.release.xcconfig */,
 				F60176633F148E08198A2E92 /* Pods-AppleSDKTips-AppleSDKTipsUITests.debug.xcconfig */,
 				7D8857339530240312B931A6 /* Pods-AppleSDKTips-AppleSDKTipsUITests.release.xcconfig */,
 				76F538E0EC6DD86CCB7C8C5A /* Pods-AppleSDKTipsTests.debug.xcconfig */,
 				E76EC04D5B3D292774744A54 /* Pods-AppleSDKTipsTests.release.xcconfig */,
+				3C443E8CD6003302759A067E /* Pods-AppleSDKTips.debug.xcconfig */,
+				D53312AAC8CEBC37E3995542 /* Pods-AppleSDKTips.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -483,8 +463,6 @@
 		39B4994C1DC7922C00EDACB2 = {
 			isa = PBXGroup;
 			children = (
-				655B2EEAD5AC4B72B829DE8F /* AmplifyModels */,
-				AB33BE1DB3A44982A01AFCD2 /* AmplifyConfig */,
 				3914590F246DF31200DBA269 /* PropertyListComponent.xcodeproj */,
 				399310791F17B93900EF33E6 /* README.md */,
 				39B499571DC7922C00EDACB2 /* AppleSDKTips */,
@@ -633,30 +611,6 @@
 			path = TopMenu;
 			sourceTree = "<group>";
 		};
-		655B2EEAD5AC4B72B829DE8F /* AmplifyModels */ = {
-			isa = PBXGroup;
-			children = (
-				899C6886F0F940F1B591AFC0 /* AmplifyModels.swift */,
-				E8379B042C12474B90B32597 /* Priority.swift */,
-				7439AB21683C481C85721B40 /* Todo.swift */,
-				68756D9721194E7B832577AC /* Todo+Schema.swift */,
-			);
-			name = AmplifyModels;
-			path = .;
-			sourceTree = "<group>";
-		};
-		AB33BE1DB3A44982A01AFCD2 /* AmplifyConfig */ = {
-			isa = PBXGroup;
-			children = (
-				519C5BB9B36C43A0AC3E2E1A /* amplifytools.xcconfig */,
-				754630730C3347E38A063533 /* amplifyconfiguration.json */,
-				090CA59BC19C4245AC349163 /* awsconfiguration.json */,
-				266A205776F24025BD973933 /* schema.graphql */,
-			);
-			name = AmplifyConfig;
-			path = .;
-			sourceTree = "<group>";
-		};
 		AE50B47E24A4E567003B9F3C /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -733,12 +687,10 @@
 			buildConfigurationList = 39B4997D1DC7922C00EDACB2 /* Build configuration list for PBXNativeTarget "AppleSDKTips" */;
 			buildPhases = (
 				1A0B58B717202FADB1FE1EDC /* [CP] Check Pods Manifest.lock */,
-				39DC85C0247F9C3300C25F5B /* Run Amplify Tools */,
 				39B499511DC7922C00EDACB2 /* Sources */,
 				39B499521DC7922C00EDACB2 /* Frameworks */,
 				39B499531DC7922C00EDACB2 /* Resources */,
 				39D3E2A0246DF3D500F05DB3 /* Embed Frameworks */,
-				56E6061218B79A1B6454BFF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -780,7 +732,6 @@
 				39B499701DC7922C00EDACB2 /* Sources */,
 				39B499711DC7922C00EDACB2 /* Frameworks */,
 				39B499721DC7922C00EDACB2 /* Resources */,
-				CE450EEE8FFE858BEA818190 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -796,13 +747,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE05B7462511738500100E1E /* Build configuration list for PBXNativeTarget "AppleSDKTipsDev" */;
 			buildPhases = (
-				AE05B7152511738500100E1E /* [CP] Check Pods Manifest.lock */,
-				AE05B7162511738500100E1E /* Run Amplify Tools */,
 				AE05B7172511738500100E1E /* Sources */,
 				AE05B72F2511738500100E1E /* Frameworks */,
 				AE05B7342511738500100E1E /* Resources */,
 				AE05B7432511738500100E1E /* Embed Frameworks */,
-				AE05B7452511738500100E1E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -912,8 +860,6 @@
 				39B4995E1DC7922C00EDACB2 /* Main.storyboard in Resources */,
 				39B7A1901DCB706E005DB322 /* topMenu.plist in Resources */,
 				394F21B321DDF445003F1E88 /* BasicPlaybackViewController.storyboard in Resources */,
-				89CF760182F841CAA80FC598 /* amplifyconfiguration.json in Resources */,
-				8E94BB7AF4A8488B9CC52205 /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -949,8 +895,6 @@
 				AE05B73E2511738500100E1E /* Main.storyboard in Resources */,
 				AE05B73F2511738500100E1E /* topMenu.plist in Resources */,
 				AE05B7402511738500100E1E /* BasicPlaybackViewController.storyboard in Resources */,
-				AE05B7412511738500100E1E /* amplifyconfiguration.json in Resources */,
-				AE05B7422511738500100E1E /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -977,41 +921,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		39DC85C0247F9C3300C25F5B /* Run Amplify Tools */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run Amplify Tools";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/AmplifyTools/amplify-tools.sh\n";
-		};
-		56E6061218B79A1B6454BFF3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		600106750C419400E996670E /* [CP] Check Pods Manifest.lock */ = {
@@ -1058,80 +967,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AE05B7152511738500100E1E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AppleSDKTips-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AE05B7162511738500100E1E /* Run Amplify Tools */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run Amplify Tools";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/AmplifyTools/amplify-tools.sh\n";
-		};
-		AE05B7452511738500100E1E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips/Pods-AppleSDKTips-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CE450EEE8FFE858BEA818190 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips-AppleSDKTipsUITests/Pods-AppleSDKTips-AppleSDKTipsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips-AppleSDKTipsUITests/Pods-AppleSDKTips-AppleSDKTipsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppleSDKTips-AppleSDKTipsUITests/Pods-AppleSDKTips-AppleSDKTipsUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1158,10 +993,6 @@
 				AE7DFA3C2497CC0C00C96C91 /* Landmark.swift in Sources */,
 				394F21B721DDF9D8003F1E88 /* BasicPlaybackViewController.swift in Sources */,
 				39B4998E1DC7964800EDACB2 /* TopMenuEntity.swift in Sources */,
-				C5B064646F964C66917794B4 /* AmplifyModels.swift in Sources */,
-				E09F5E7E8B7F406DA3558875 /* Priority.swift in Sources */,
-				3375BF41BAAB4D569E327FF7 /* Todo.swift in Sources */,
-				B2CFADB706FA43D68E2DF392 /* Todo+Schema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1204,10 +1035,6 @@
 				AE05B7282511738500100E1E /* Landmark.swift in Sources */,
 				AE05B7292511738500100E1E /* BasicPlaybackViewController.swift in Sources */,
 				AE05B72A2511738500100E1E /* TopMenuEntity.swift in Sources */,
-				AE05B72B2511738500100E1E /* AmplifyModels.swift in Sources */,
-				AE05B72C2511738500100E1E /* Priority.swift in Sources */,
-				AE05B72D2511738500100E1E /* Todo.swift in Sources */,
-				AE05B72E2511738500100E1E /* Todo+Schema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1364,7 +1191,7 @@
 		};
 		39B4997E1DC7922C00EDACB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E491C33B34005C2C736E2E7 /* Pods-AppleSDKTips.debug.xcconfig */;
+			baseConfigurationReference = 3C443E8CD6003302759A067E /* Pods-AppleSDKTips.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1396,7 +1223,7 @@
 		};
 		39B4997F1DC7922C00EDACB2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF45BF5491F10AF4AF68FD69 /* Pods-AppleSDKTips.release.xcconfig */;
+			baseConfigurationReference = D53312AAC8CEBC37E3995542 /* Pods-AppleSDKTips.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1515,7 +1342,6 @@
 		};
 		AE05B7472511738500100E1E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E491C33B34005C2C736E2E7 /* Pods-AppleSDKTips.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1551,7 +1377,6 @@
 		};
 		AE05B7482511738500100E1E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF45BF5491F10AF4AF68FD69 /* Pods-AppleSDKTips.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

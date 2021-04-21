@@ -8,10 +8,10 @@ target 'AppleSDKTips' do
   # Pods for AppleSDKTips
 
   # Amplifyに関するライブラリをインポート
-  pod 'Amplify'
-  pod 'Amplify/Tools'
-  pod 'AmplifyPlugins/AWSAPIPlugin'
-  pod 'AmplifyPlugins/AWSDataStorePlugin'
+#  pod 'Amplify'
+#  pod 'Amplify/Tools'
+#  pod 'AmplifyPlugins/AWSAPIPlugin'
+#  pod 'AmplifyPlugins/AWSDataStorePlugin'
 
   target 'AppleSDKTipsTests' do
     inherit! :search_paths
