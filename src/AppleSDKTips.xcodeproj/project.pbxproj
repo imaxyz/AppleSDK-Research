@@ -76,6 +76,9 @@
 		AE34EBAF249524E300BD2B3F /* PropertyListComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; };
 		AE34EBB0249524E300BD2B3F /* PropertyListComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AE50B48324A55C59003B9F3C /* ImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50B48224A55C59003B9F3C /* ImageDataSource.swift */; };
+		AE519E532640C40000454F76 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE519E522640C40000454F76 /* AWSDataStorePlugin */; };
+		AE519E552640C40000454F76 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE519E542640C40000454F76 /* AWSAPIPlugin */; };
+		AE519E572640C40000454F76 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = AE519E562640C40000454F76 /* Amplify */; };
 		AE68254F24F4847800B6A35A /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = AE68254E24F4847800B6A35A /* FacebookLogin */; };
 		AE68255124F4847800B6A35A /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = AE68255024F4847800B6A35A /* FacebookCore */; };
 		AE7DFA332497BD8C00C96C91 /* tutorial1.json in Resources */ = {isa = PBXBuildFile; fileRef = AE7DFA302497BD8C00C96C91 /* tutorial1.json */; };
@@ -201,9 +204,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE519E552640C40000454F76 /* AWSAPIPlugin in Frameworks */,
 				AE34EBAF249524E300BD2B3F /* PropertyListComponent.framework in Frameworks */,
 				AE68254F24F4847800B6A35A /* FacebookLogin in Frameworks */,
+				AE519E572640C40000454F76 /* Amplify in Frameworks */,
 				AE68255124F4847800B6A35A /* FacebookCore in Frameworks */,
+				AE519E532640C40000454F76 /* AWSDataStorePlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,6 +681,9 @@
 			packageProductDependencies = (
 				AE68254E24F4847800B6A35A /* FacebookLogin */,
 				AE68255024F4847800B6A35A /* FacebookCore */,
+				AE519E522640C40000454F76 /* AWSDataStorePlugin */,
+				AE519E542640C40000454F76 /* AWSAPIPlugin */,
+				AE519E562640C40000454F76 /* Amplify */,
 			);
 			productName = AppleSDKTips;
 			productReference = 39B499551DC7922C00EDACB2 /* AppleSDKTips.app */;
@@ -780,6 +789,7 @@
 			mainGroup = 39B4994C1DC7922C00EDACB2;
 			packageReferences = (
 				AE68254D24F4847800B6A35A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				AE519E512640C40000454F76 /* XCRemoteSwiftPackageReference "amplify-ios" */,
 			);
 			productRefGroup = 39B499561DC7922C00EDACB2 /* Products */;
 			projectDirPath = "";
@@ -1359,6 +1369,14 @@
 				minimumVersion = 7.1.1;
 			};
 		};
+		AE519E512640C40000454F76 /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
 		AE68254D24F4847800B6A35A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
@@ -1379,6 +1397,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AE05B7132511738500100E1E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
 			productName = FacebookCore;
+		};
+		AE519E522640C40000454F76 /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE519E512640C40000454F76 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSDataStorePlugin;
+		};
+		AE519E542640C40000454F76 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE519E512640C40000454F76 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSAPIPlugin;
+		};
+		AE519E562640C40000454F76 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE519E512640C40000454F76 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
 		};
 		AE68254E24F4847800B6A35A /* FacebookLogin */ = {
 			isa = XCSwiftPackageProductDependency;
