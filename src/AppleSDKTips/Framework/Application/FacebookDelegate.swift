@@ -2,12 +2,11 @@
 //  FacebookDelegate.swift
 //  AppleSDKTips
 //
-//  Created by 今村裕治 on 2021/05/04.
+//  Created by imaxyz on 2021/05/04.
 //  Copyright © 2021 imaxyz. All rights reserved.
 //
 
 import Foundation
-// Facebook SDK関連のライブラリをインポート
 import FBSDKCoreKit
 
 class FacebookDelegate: NSObject {
@@ -25,13 +24,8 @@ class FacebookDelegate: NSObject {
     
     class func open_url(application: UIApplication, url: URL, sourceApplication: String?, annotation: Any) -> Bool {
         
-//        func application(_ application: UIApplication,open url: URL,sourceApplication: String?,annotation: Any) -> Bool {
-//            return ApplicationDelegate.shared.application(application, open: url, sourceApplication: sourceApplication, annotation: annotation)
-//        }
-
         //Facebook SDKのコードを実行する
         return ApplicationDelegate.shared.application(application, open: url, sourceApplication: sourceApplication, annotation: annotation)
-            
     }
     
 }
