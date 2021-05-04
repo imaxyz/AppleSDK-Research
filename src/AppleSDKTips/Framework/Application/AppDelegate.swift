@@ -33,6 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //           print("xxx Could not initialize Amplify: \(error)")
 //        }
 
+        // Facebook SDKの初期化
         FacebookDelegate.start_sdk(application: application, didFinishLaunchingWithOptions: launchOptions)
 
         return true
