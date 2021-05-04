@@ -28,4 +28,8 @@ class FacebookDelegate: NSObject {
         return ApplicationDelegate.shared.application(application, open: url, sourceApplication: sourceApplication, annotation: annotation)
     }
     
+    class func did_become_active() {
+        //Facebook SDKのコードを実行する
+        AppEvents.activateApp()
+    }
 }

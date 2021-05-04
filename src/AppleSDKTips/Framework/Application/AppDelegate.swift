@@ -58,7 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         //Facebook SDKのコードを実行する
-        //AppEvents.activateApp()
+        FacebookDelegate.did_become_active()
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
