@@ -79,6 +79,8 @@
 		AE519E532640C40000454F76 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE519E522640C40000454F76 /* AWSDataStorePlugin */; };
 		AE519E552640C40000454F76 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE519E542640C40000454F76 /* AWSAPIPlugin */; };
 		AE519E572640C40000454F76 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = AE519E562640C40000454F76 /* Amplify */; };
+		AE519E5D2640CB9900454F76 /* FacebookDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE519E5C2640CB9900454F76 /* FacebookDelegate.swift */; };
+		AE519E602640CDF500454F76 /* FacebookDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE519E5C2640CB9900454F76 /* FacebookDelegate.swift */; };
 		AE68254F24F4847800B6A35A /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = AE68254E24F4847800B6A35A /* FacebookLogin */; };
 		AE68255124F4847800B6A35A /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = AE68255024F4847800B6A35A /* FacebookCore */; };
 		AE7DFA332497BD8C00C96C91 /* tutorial1.json in Resources */ = {isa = PBXBuildFile; fileRef = AE7DFA302497BD8C00C96C91 /* tutorial1.json */; };
@@ -190,6 +192,7 @@
 		AE05B7492511738500100E1E /* AppleSDKTipsDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSDKTipsDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE05B74D251173ED00100E1E /* Info-dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-dev.plist"; sourceTree = "<group>"; };
 		AE50B48224A55C59003B9F3C /* ImageDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataSource.swift; sourceTree = "<group>"; };
+		AE519E5C2640CB9900454F76 /* FacebookDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookDelegate.swift; sourceTree = "<group>"; };
 		AE7DFA302497BD8C00C96C91 /* tutorial1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial1.json; sourceTree = "<group>"; };
 		AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRowView.swift; path = "AppleSDKTips/Application/Presentation/SwiftUI-Tutorial1/Views/LandmarkRowView.swift"; sourceTree = SOURCE_ROOT; };
 		AE7DFA3B2497CC0C00C96C91 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
@@ -290,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				39B499581DC7922C00EDACB2 /* AppDelegate.swift */,
+				AE519E5C2640CB9900454F76 /* FacebookDelegate.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -906,6 +910,7 @@
 				39D029121DCCC22300ADAE35 /* TopMenuListTableViewCell.swift in Sources */,
 				AE7DFA3C2497CC0C00C96C91 /* Landmark.swift in Sources */,
 				394F21B721DDF9D8003F1E88 /* BasicPlaybackViewController.swift in Sources */,
+				AE519E5D2640CB9900454F76 /* FacebookDelegate.swift in Sources */,
 				39B4998E1DC7964800EDACB2 /* TopMenuEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -948,6 +953,7 @@
 				AE05B7272511738500100E1E /* TopMenuListTableViewCell.swift in Sources */,
 				AE05B7282511738500100E1E /* Landmark.swift in Sources */,
 				AE05B7292511738500100E1E /* BasicPlaybackViewController.swift in Sources */,
+				AE519E602640CDF500454F76 /* FacebookDelegate.swift in Sources */,
 				AE05B72A2511738500100E1E /* TopMenuEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
