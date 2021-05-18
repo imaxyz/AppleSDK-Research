@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		34F05AD0A11EB963AEDEFDDD /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45442FFF4C793CFDF88FDB87 /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework */; };
 		390178CD1DCC11870042D29A /* TopMenuListTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390178CC1DCC11870042D29A /* TopMenuListTableViewDataSource.swift */; };
 		390178CF1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390178CE1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift */; };
 		394F21B321DDF445003F1E88 /* BasicPlaybackViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394F21B221DDF445003F1E88 /* BasicPlaybackViewController.storyboard */; };
@@ -35,7 +34,8 @@
 		39D029121DCCC22300ADAE35 /* TopMenuListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D029111DCCC22300ADAE35 /* TopMenuListTableViewCell.swift */; };
 		39D0291D1DCCD88000ADAE35 /* TopMenuList.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D0291C1DCCD88000ADAE35 /* TopMenuList.m */; };
 		39E3AB9E2485347500B3ED15 /* SomeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E3AB9D2485347500B3ED15 /* SomeMapView.swift */; };
-		49DE3D1F1B0D328F5C2AAA37 /* Pods_AppleSDKTipsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */; };
+		45E13C8F39F15BC97B7F72EB /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A96D19969529B31DCDC13701 /* awsconfiguration.json */; };
+		9D83EDDBDF931B941DC6CD13 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 524AE0171242BBDBAC1E3BCE /* amplifyconfiguration.json */; };
 		AE05B7182511738500100E1E /* TopMenuList.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D0291C1DCCD88000ADAE35 /* TopMenuList.m */; };
 		AE05B7192511738500100E1E /* CollectionView1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */; };
 		AE05B71A2511738500100E1E /* ImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50B48224A55C59003B9F3C /* ImageDataSource.swift */; };
@@ -189,9 +189,17 @@
 		39D0291B1DCCD88000ADAE35 /* TopMenuList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopMenuList.h; sourceTree = "<group>"; };
 		39D0291C1DCCD88000ADAE35 /* TopMenuList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopMenuList.m; sourceTree = "<group>"; };
 		39E3AB9D2485347500B3ED15 /* SomeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeMapView.swift; sourceTree = "<group>"; };
-		45442FFF4C793CFDF88FDB87 /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTips_AppleSDKTipsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		524AE0171242BBDBAC1E3BCE /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		A96D19969529B31DCDC13701 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		AE05B7492511738500100E1E /* AppleSDKTipsDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSDKTipsDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE05B74D251173ED00100E1E /* Info-dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-dev.plist"; sourceTree = "<group>"; };
+		AE22358326548B4A00D22D59 /* project-config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "project-config.json"; sourceTree = "<group>"; };
+		AE22358426548B4A00D22D59 /* cli.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cli.json; sourceTree = "<group>"; };
+		AE22358626548B4A00D22D59 /* backend-config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "backend-config.json"; sourceTree = "<group>"; };
+		AE22358A26548B4A00D22D59 /* CustomResources.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CustomResources.json; sourceTree = "<group>"; };
+		AE22358B26548B4A00D22D59 /* parameters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = parameters.json; sourceTree = "<group>"; };
+		AE22358C26548B4A00D22D59 /* schema.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.graphql; sourceTree = "<group>"; };
+		AE22358D26548B4A00D22D59 /* transform.conf.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = transform.conf.json; sourceTree = "<group>"; };
 		AE50B48224A55C59003B9F3C /* ImageDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataSource.swift; sourceTree = "<group>"; };
 		AE519E5C2640CB9900454F76 /* FacebookDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookDelegate.swift; sourceTree = "<group>"; };
 		AE7DFA302497BD8C00C96C91 /* tutorial1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial1.json; sourceTree = "<group>"; };
@@ -201,8 +209,6 @@
 		AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FacebookSimpleLoginViewController.storyboard; sourceTree = "<group>"; };
 		AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookSimpleLoginViewController.swift; sourceTree = "<group>"; };
 		AEEAA50026533F2B00822BF1 /* AmplifyStartDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplifyStartDemoViewController.swift; sourceTree = "<group>"; };
-		D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTipsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,7 +229,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49DE3D1F1B0D328F5C2AAA37 /* Pods_AppleSDKTipsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +236,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34F05AD0A11EB963AEDEFDDD /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,16 +252,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		39145918246DF35100DBA269 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */,
-				45442FFF4C793CFDF88FDB87 /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework */,
-				D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		391978632244B069006A3BFD /* WWW */ = {
 			isa = PBXGroup;
 			children = (
@@ -406,7 +400,8 @@
 				39B4996C1DC7922C00EDACB2 /* AppleSDKTipsTests */,
 				39B499771DC7922C00EDACB2 /* AppleSDKTipsUITests */,
 				39B499561DC7922C00EDACB2 /* Products */,
-				39145918246DF35100DBA269 /* Frameworks */,
+				AE22358126548B4A00D22D59 /* amplify */,
+				FA3F76AB16DF43DA21AA6032 /* AmplifyConfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -547,6 +542,60 @@
 			path = TopMenu;
 			sourceTree = "<group>";
 		};
+		AE22358126548B4A00D22D59 /* amplify */ = {
+			isa = PBXGroup;
+			children = (
+				AE22358226548B4A00D22D59 /* .config */,
+				AE22358426548B4A00D22D59 /* cli.json */,
+				AE22358526548B4A00D22D59 /* backend */,
+			);
+			path = amplify;
+			sourceTree = "<group>";
+		};
+		AE22358226548B4A00D22D59 /* .config */ = {
+			isa = PBXGroup;
+			children = (
+				AE22358326548B4A00D22D59 /* project-config.json */,
+			);
+			path = .config;
+			sourceTree = "<group>";
+		};
+		AE22358526548B4A00D22D59 /* backend */ = {
+			isa = PBXGroup;
+			children = (
+				AE22358626548B4A00D22D59 /* backend-config.json */,
+				AE22358726548B4A00D22D59 /* api */,
+			);
+			path = backend;
+			sourceTree = "<group>";
+		};
+		AE22358726548B4A00D22D59 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				AE22358826548B4A00D22D59 /* amplifyDatasource */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		AE22358826548B4A00D22D59 /* amplifyDatasource */ = {
+			isa = PBXGroup;
+			children = (
+				AE22358926548B4A00D22D59 /* stacks */,
+				AE22358B26548B4A00D22D59 /* parameters.json */,
+				AE22358C26548B4A00D22D59 /* schema.graphql */,
+				AE22358D26548B4A00D22D59 /* transform.conf.json */,
+			);
+			path = amplifyDatasource;
+			sourceTree = "<group>";
+		};
+		AE22358926548B4A00D22D59 /* stacks */ = {
+			isa = PBXGroup;
+			children = (
+				AE22358A26548B4A00D22D59 /* CustomResources.json */,
+			);
+			path = stacks;
+			sourceTree = "<group>";
+		};
 		AE50B47E24A4E567003B9F3C /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -643,6 +692,15 @@
 				3953DB431E6B0951007BDD49 /* CollectionView1ViewController.storyboard */,
 			);
 			path = CollectionViewDemo;
+			sourceTree = "<group>";
+		};
+		FA3F76AB16DF43DA21AA6032 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				A96D19969529B31DCDC13701 /* awsconfiguration.json */,
+				524AE0171242BBDBAC1E3BCE /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -827,6 +885,8 @@
 				39B4995E1DC7922C00EDACB2 /* Main.storyboard in Resources */,
 				39B7A1901DCB706E005DB322 /* topMenu.plist in Resources */,
 				394F21B321DDF445003F1E88 /* BasicPlaybackViewController.storyboard in Resources */,
+				45E13C8F39F15BC97B7F72EB /* awsconfiguration.json in Resources */,
+				9D83EDDBDF931B941DC6CD13 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
