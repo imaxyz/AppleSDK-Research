@@ -86,8 +86,12 @@
 		AE7DFA332497BD8C00C96C91 /* tutorial1.json in Resources */ = {isa = PBXBuildFile; fileRef = AE7DFA302497BD8C00C96C91 /* tutorial1.json */; };
 		AE7DFA382497C35E00C96C91 /* LandmarkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */; };
 		AE7DFA3C2497CC0C00C96C91 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFA3B2497CC0C00C96C91 /* Landmark.swift */; };
+		AE86DB242653395E00BB846C /* AmplifyStartDemoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE86DB232653395E00BB846C /* AmplifyStartDemoViewController.storyboard */; };
+		AE86DB282653399500BB846C /* AmplifyStartDemoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE86DB232653395E00BB846C /* AmplifyStartDemoViewController.storyboard */; };
 		AED17B8724F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */; };
 		AED17B8924F72B0700E76414 /* FacebookSimpleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */; };
+		AEEAA50126533F2B00822BF1 /* AmplifyStartDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEAA50026533F2B00822BF1 /* AmplifyStartDemoViewController.swift */; };
+		AEEAA50226533F2B00822BF1 /* AmplifyStartDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEAA50026533F2B00822BF1 /* AmplifyStartDemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -196,8 +200,10 @@
 		AE7DFA302497BD8C00C96C91 /* tutorial1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial1.json; sourceTree = "<group>"; };
 		AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRowView.swift; path = "AppleSDKTips/Application/Presentation/SwiftUI-Tutorial1/Views/LandmarkRowView.swift"; sourceTree = SOURCE_ROOT; };
 		AE7DFA3B2497CC0C00C96C91 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		AE86DB232653395E00BB846C /* AmplifyStartDemoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AmplifyStartDemoViewController.storyboard; sourceTree = "<group>"; };
 		AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FacebookSimpleLoginViewController.storyboard; sourceTree = "<group>"; };
 		AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookSimpleLoginViewController.swift; sourceTree = "<group>"; };
+		AEEAA50026533F2B00822BF1 /* AmplifyStartDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplifyStartDemoViewController.swift; sourceTree = "<group>"; };
 		D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTipsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -377,6 +383,7 @@
 		3988CBFA1F17A01800F29FA1 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				AE86DB202653391C00BB846C /* AmplifySDK */,
 				AED17B8224F72A7B00E76414 /* FacebookSDK */,
 				397E13D7247AB65A00688DE2 /* SwiftUI-Tutorial1 */,
 				394F21AD21DDF40D003F1E88 /* AVFoundation */,
@@ -639,6 +646,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		AE86DB202653391C00BB846C /* AmplifySDK */ = {
+			isa = PBXGroup;
+			children = (
+				AE86DB232653395E00BB846C /* AmplifyStartDemoViewController.storyboard */,
+				AEEAA50026533F2B00822BF1 /* AmplifyStartDemoViewController.swift */,
+			);
+			path = AmplifySDK;
+			sourceTree = "<group>";
+		};
 		AED17B8224F72A7B00E76414 /* FacebookSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -836,6 +852,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3953DB441E6B0951007BDD49 /* CollectionView1ViewController.storyboard in Resources */,
+				AE86DB242653395E00BB846C /* AmplifyStartDemoViewController.storyboard in Resources */,
 				AED17B8724F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard in Resources */,
 				39BA76C31E9687F000810E47 /* ZoomingSample1ViewController.storyboard in Resources */,
 				394F21B521DDF553003F1E88 /* README.md in Resources */,
@@ -873,6 +890,7 @@
 				AE05B7362511738500100E1E /* FacebookSimpleLoginViewController.storyboard in Resources */,
 				AE05B7372511738500100E1E /* ZoomingSample1ViewController.storyboard in Resources */,
 				AE05B7382511738500100E1E /* README.md in Resources */,
+				AE86DB282653399500BB846C /* AmplifyStartDemoViewController.storyboard in Resources */,
 				AE05B7392511738500100E1E /* LaunchScreen.storyboard in Resources */,
 				AE05B73A2511738500100E1E /* Assets.xcassets in Resources */,
 				AE05B73B2511738500100E1E /* Verification20180403TempView.xib in Resources */,
@@ -905,6 +923,7 @@
 				39E3AB9E2485347500B3ED15 /* SomeMapView.swift in Sources */,
 				390178CD1DCC11870042D29A /* TopMenuListTableViewDataSource.swift in Sources */,
 				3953DB461E6B09D4007BDD49 /* CollectionView1ViewController.swift in Sources */,
+				AEEAA50126533F2B00822BF1 /* AmplifyStartDemoViewController.swift in Sources */,
 				390178CF1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift in Sources */,
 				397E1418247ABE1700688DE2 /* LandmarkDetailView.swift in Sources */,
 				39D029121DCCC22300ADAE35 /* TopMenuListTableViewCell.swift in Sources */,
@@ -948,6 +967,7 @@
 				AE05B7222511738500100E1E /* SomeMapView.swift in Sources */,
 				AE05B7232511738500100E1E /* TopMenuListTableViewDataSource.swift in Sources */,
 				AE05B7242511738500100E1E /* CollectionView1ViewController.swift in Sources */,
+				AEEAA50226533F2B00822BF1 /* AmplifyStartDemoViewController.swift in Sources */,
 				AE05B7252511738500100E1E /* TopMenuListViewControllerUITableViewDelegate.swift in Sources */,
 				AE05B7262511738500100E1E /* LandmarkDetailView.swift in Sources */,
 				AE05B7272511738500100E1E /* TopMenuListTableViewCell.swift in Sources */,

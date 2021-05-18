@@ -3,7 +3,6 @@
 <plist version="1.0">
 <array>
 	<array>
-
 		<dict>
 			<key>title</key>
 			<string>Facebook SDK</string>
@@ -17,8 +16,6 @@
 				</dict>
 			</array>
 		</dict>
-
-
 		<dict>
 			<key>title</key>
 			<string>SwiftUI</string>
@@ -32,7 +29,6 @@
 				</dict>
 			</array>
 		</dict>
-
 		<dict>
 			<key>title</key>
 			<string>AWS - Amplify Framework</string>
@@ -40,14 +36,12 @@
 			<array>
 				<dict>
 					<key>title</key>
-					<string>初期化</string>
+					<string>初期化デモ</string>
 					<key>vc</key>
-					<string>AmplifyInitializationViewController</string>
+					<string>AmplifyStartDemoViewController</string>
 				</dict>
 			</array>
 		</dict>
-
-
 		<dict>
 			<key>title</key>
 			<string>AV Foundation</string>
@@ -61,8 +55,6 @@
 				</dict>
 			</array>
 		</dict>
-
-
 		<dict>
 			<key>title</key>
 			<string>UIKit - CollectionView</string>
@@ -76,7 +68,6 @@
 				</dict>
 			</array>
 		</dict>
-
 		<dict>
 			<key>title</key>
 			<string>UIKit - ScrollView</string>
@@ -90,7 +81,6 @@
 				</dict>
 			</array>
 		</dict>
-
 	</array>
 </array>
 </plist>
