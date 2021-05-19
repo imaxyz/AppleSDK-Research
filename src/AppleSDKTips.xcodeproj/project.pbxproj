@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13309FF6DC574CEA67DD1389 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86906558CB0C2873AAE047FD /* AmplifyModels.swift */; };
+		3354CC9E06961827E56EAF09 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B06BFB7010138FA94351B9 /* Todo.swift */; };
+		3866F6C66FC369637D6E7A8B /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B63B1CDD1DB67B36A06F71 /* Priority.swift */; };
 		390178CD1DCC11870042D29A /* TopMenuListTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390178CC1DCC11870042D29A /* TopMenuListTableViewDataSource.swift */; };
 		390178CF1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390178CE1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift */; };
 		394F21B321DDF445003F1E88 /* BasicPlaybackViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394F21B221DDF445003F1E88 /* BasicPlaybackViewController.storyboard */; };
@@ -34,8 +37,7 @@
 		39D029121DCCC22300ADAE35 /* TopMenuListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D029111DCCC22300ADAE35 /* TopMenuListTableViewCell.swift */; };
 		39D0291D1DCCD88000ADAE35 /* TopMenuList.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D0291C1DCCD88000ADAE35 /* TopMenuList.m */; };
 		39E3AB9E2485347500B3ED15 /* SomeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E3AB9D2485347500B3ED15 /* SomeMapView.swift */; };
-		45E13C8F39F15BC97B7F72EB /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A96D19969529B31DCDC13701 /* awsconfiguration.json */; };
-		9D83EDDBDF931B941DC6CD13 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 524AE0171242BBDBAC1E3BCE /* amplifyconfiguration.json */; };
+		AA1547CD06230A0D55C23FFC /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = F969E40330A178945F9F5620 /* Todo+Schema.swift */; };
 		AE05B7182511738500100E1E /* TopMenuList.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D0291C1DCCD88000ADAE35 /* TopMenuList.m */; };
 		AE05B7192511738500100E1E /* CollectionView1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */; };
 		AE05B71A2511738500100E1E /* ImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50B48224A55C59003B9F3C /* ImageDataSource.swift */; };
@@ -71,6 +73,17 @@
 		AE05B7402511738500100E1E /* BasicPlaybackViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394F21B221DDF445003F1E88 /* BasicPlaybackViewController.storyboard */; };
 		AE05B7442511738500100E1E /* PropertyListComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AE05B74E251173ED00100E1E /* Info-dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE05B74D251173ED00100E1E /* Info-dev.plist */; };
+		AE22359326548F7300D22D59 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = AE22359226548F7300D22D59 /* Amplify */; };
+		AE22359726548F8600D22D59 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE22359626548F8600D22D59 /* AWSAPIPlugin */; };
+		AE22359926548F8600D22D59 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE22359826548F8600D22D59 /* AWSDataStorePlugin */; };
+		AE2235A7265491C500D22D59 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86906558CB0C2873AAE047FD /* AmplifyModels.swift */; };
+		AE2235A8265491C500D22D59 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B63B1CDD1DB67B36A06F71 /* Priority.swift */; };
+		AE2235A9265491C500D22D59 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = F969E40330A178945F9F5620 /* Todo+Schema.swift */; };
+		AE2235AA265491C500D22D59 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B06BFB7010138FA94351B9 /* Todo.swift */; };
+		AE2235AB265491E900D22D59 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 524AE0171242BBDBAC1E3BCE /* amplifyconfiguration.json */; };
+		AE2235AC265491EA00D22D59 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 524AE0171242BBDBAC1E3BCE /* amplifyconfiguration.json */; };
+		AE2235AD265491ED00D22D59 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A96D19969529B31DCDC13701 /* awsconfiguration.json */; };
+		AE2235AE265491EE00D22D59 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A96D19969529B31DCDC13701 /* awsconfiguration.json */; };
 		AE34EBAF249524E300BD2B3F /* PropertyListComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; };
 		AE34EBB0249524E300BD2B3F /* PropertyListComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AE50B48324A55C59003B9F3C /* ImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50B48224A55C59003B9F3C /* ImageDataSource.swift */; };
@@ -190,6 +203,7 @@
 		39D0291C1DCCD88000ADAE35 /* TopMenuList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopMenuList.m; sourceTree = "<group>"; };
 		39E3AB9D2485347500B3ED15 /* SomeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeMapView.swift; sourceTree = "<group>"; };
 		524AE0171242BBDBAC1E3BCE /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		86906558CB0C2873AAE047FD /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
 		A96D19969529B31DCDC13701 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		AE05B7492511738500100E1E /* AppleSDKTipsDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSDKTipsDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE05B74D251173ED00100E1E /* Info-dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-dev.plist"; sourceTree = "<group>"; };
@@ -209,6 +223,9 @@
 		AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FacebookSimpleLoginViewController.storyboard; sourceTree = "<group>"; };
 		AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookSimpleLoginViewController.swift; sourceTree = "<group>"; };
 		AEEAA50026533F2B00822BF1 /* AmplifyStartDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplifyStartDemoViewController.swift; sourceTree = "<group>"; };
+		B3B06BFB7010138FA94351B9 /* Todo.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Todo.swift; path = amplify/generated/models/Todo.swift; sourceTree = "<group>"; };
+		D4B63B1CDD1DB67B36A06F71 /* Priority.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Priority.swift; path = amplify/generated/models/Priority.swift; sourceTree = "<group>"; };
+		F969E40330A178945F9F5620 /* Todo+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Todo+Schema.swift"; path = "amplify/generated/models/Todo+Schema.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,7 +260,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE22359726548F8600D22D59 /* AWSAPIPlugin in Frameworks */,
 				AE05B7302511738500100E1E /* PropertyListComponent.framework in Frameworks */,
+				AE22359326548F7300D22D59 /* Amplify in Frameworks */,
+				AE22359926548F8600D22D59 /* AWSDataStorePlugin in Frameworks */,
 				AE05B7322511738500100E1E /* FacebookLogin in Frameworks */,
 				AE05B7332511738500100E1E /* FacebookCore in Frameworks */,
 			);
@@ -402,6 +422,8 @@
 				39B499561DC7922C00EDACB2 /* Products */,
 				AE22358126548B4A00D22D59 /* amplify */,
 				FA3F76AB16DF43DA21AA6032 /* AmplifyConfig */,
+				CDFE1837A6B59805C1362587 /* AmplifyModels */,
+				AE22359126548F7300D22D59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -596,6 +618,13 @@
 			path = stacks;
 			sourceTree = "<group>";
 		};
+		AE22359126548F7300D22D59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE50B47E24A4E567003B9F3C /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -694,6 +723,17 @@
 			path = CollectionViewDemo;
 			sourceTree = "<group>";
 		};
+		CDFE1837A6B59805C1362587 /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				86906558CB0C2873AAE047FD /* AmplifyModels.swift */,
+				D4B63B1CDD1DB67B36A06F71 /* Priority.swift */,
+				F969E40330A178945F9F5620 /* Todo+Schema.swift */,
+				B3B06BFB7010138FA94351B9 /* Todo.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
 		FA3F76AB16DF43DA21AA6032 /* AmplifyConfig */ = {
 			isa = PBXGroup;
 			children = (
@@ -784,6 +824,9 @@
 			packageProductDependencies = (
 				AE05B7122511738500100E1E /* FacebookLogin */,
 				AE05B7142511738500100E1E /* FacebookCore */,
+				AE22359226548F7300D22D59 /* Amplify */,
+				AE22359626548F8600D22D59 /* AWSAPIPlugin */,
+				AE22359826548F8600D22D59 /* AWSDataStorePlugin */,
 			);
 			productName = AppleSDKTips;
 			productReference = AE05B7492511738500100E1E /* AppleSDKTipsDev.app */;
@@ -880,13 +923,13 @@
 				394F21B521DDF553003F1E88 /* README.md in Resources */,
 				39B499631DC7922C00EDACB2 /* LaunchScreen.storyboard in Resources */,
 				39B499601DC7922C00EDACB2 /* Assets.xcassets in Resources */,
+				AE2235AC265491EA00D22D59 /* amplifyconfiguration.json in Resources */,
+				AE2235AE265491EE00D22D59 /* awsconfiguration.json in Resources */,
 				AE7DFA332497BD8C00C96C91 /* tutorial1.json in Resources */,
 				39BA76CD1E9691F700810E47 /* ZoomingSample1ScrollView.xib in Resources */,
 				39B4995E1DC7922C00EDACB2 /* Main.storyboard in Resources */,
 				39B7A1901DCB706E005DB322 /* topMenu.plist in Resources */,
 				394F21B321DDF445003F1E88 /* BasicPlaybackViewController.storyboard in Resources */,
-				45E13C8F39F15BC97B7F72EB /* awsconfiguration.json in Resources */,
-				9D83EDDBDF931B941DC6CD13 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -912,7 +955,9 @@
 				AE05B7352511738500100E1E /* CollectionView1ViewController.storyboard in Resources */,
 				AE05B7362511738500100E1E /* FacebookSimpleLoginViewController.storyboard in Resources */,
 				AE05B7372511738500100E1E /* ZoomingSample1ViewController.storyboard in Resources */,
+				AE2235AB265491E900D22D59 /* amplifyconfiguration.json in Resources */,
 				AE05B7382511738500100E1E /* README.md in Resources */,
+				AE2235AD265491ED00D22D59 /* awsconfiguration.json in Resources */,
 				AE86DB282653399500BB846C /* AmplifyStartDemoViewController.storyboard in Resources */,
 				AE05B7392511738500100E1E /* LaunchScreen.storyboard in Resources */,
 				AE05B73A2511738500100E1E /* Assets.xcassets in Resources */,
@@ -953,6 +998,10 @@
 				394F21B721DDF9D8003F1E88 /* BasicPlaybackViewController.swift in Sources */,
 				AE519E5D2640CB9900454F76 /* FacebookDelegate.swift in Sources */,
 				39B4998E1DC7964800EDACB2 /* TopMenuEntity.swift in Sources */,
+				13309FF6DC574CEA67DD1389 /* AmplifyModels.swift in Sources */,
+				3866F6C66FC369637D6E7A8B /* Priority.swift in Sources */,
+				AA1547CD06230A0D55C23FFC /* Todo+Schema.swift in Sources */,
+				3354CC9E06961827E56EAF09 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -990,12 +1039,16 @@
 				AE05B7232511738500100E1E /* TopMenuListTableViewDataSource.swift in Sources */,
 				AE05B7242511738500100E1E /* CollectionView1ViewController.swift in Sources */,
 				AEEAA50226533F2B00822BF1 /* AmplifyStartDemoViewController.swift in Sources */,
+				AE2235AA265491C500D22D59 /* Todo.swift in Sources */,
+				AE2235A9265491C500D22D59 /* Todo+Schema.swift in Sources */,
 				AE05B7252511738500100E1E /* TopMenuListViewControllerUITableViewDelegate.swift in Sources */,
 				AE05B7262511738500100E1E /* LandmarkDetailView.swift in Sources */,
 				AE05B7272511738500100E1E /* TopMenuListTableViewCell.swift in Sources */,
 				AE05B7282511738500100E1E /* Landmark.swift in Sources */,
+				AE2235A7265491C500D22D59 /* AmplifyModels.swift in Sources */,
 				AE05B7292511738500100E1E /* BasicPlaybackViewController.swift in Sources */,
 				AE519E602640CDF500454F76 /* FacebookDelegate.swift in Sources */,
+				AE2235A8265491C500D22D59 /* Priority.swift in Sources */,
 				AE05B72A2511738500100E1E /* TopMenuEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1421,7 +1474,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
 			requirement = {
-				kind = upToNextMajorVersion;
+				kind = upToNextMinorVersion;
 				minimumVersion = 1.9.0;
 			};
 		};
@@ -1445,6 +1498,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AE05B7132511738500100E1E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
 			productName = FacebookCore;
+		};
+		AE22359226548F7300D22D59 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE519E512640C40000454F76 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+		AE22359626548F8600D22D59 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE519E512640C40000454F76 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSAPIPlugin;
+		};
+		AE22359826548F8600D22D59 /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE519E512640C40000454F76 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSDataStorePlugin;
 		};
 		AE519E522640C40000454F76 /* AWSDataStorePlugin */ = {
 			isa = XCSwiftPackageProductDependency;
