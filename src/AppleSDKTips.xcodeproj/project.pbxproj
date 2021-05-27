@@ -103,6 +103,8 @@
 		AED17B8924F72B0700E76414 /* FacebookSimpleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */; };
 		AEEAA50126533F2B00822BF1 /* AmplifyStartDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEAA50026533F2B00822BF1 /* AmplifyStartDemoViewController.swift */; };
 		AEEAA50226533F2B00822BF1 /* AmplifyStartDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEAA50026533F2B00822BF1 /* AmplifyStartDemoViewController.swift */; };
+		AEFF8494266064FC00B2C510 /* AmplifyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF8493266064FC00B2C510 /* AmplifyDelegate.swift */; };
+		AEFF8495266064FC00B2C510 /* AmplifyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF8493266064FC00B2C510 /* AmplifyDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -223,6 +225,7 @@
 		AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FacebookSimpleLoginViewController.storyboard; sourceTree = "<group>"; };
 		AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookSimpleLoginViewController.swift; sourceTree = "<group>"; };
 		AEEAA50026533F2B00822BF1 /* AmplifyStartDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplifyStartDemoViewController.swift; sourceTree = "<group>"; };
+		AEFF8493266064FC00B2C510 /* AmplifyDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplifyDelegate.swift; sourceTree = "<group>"; };
 		B3B06BFB7010138FA94351B9 /* Todo.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Todo.swift; path = amplify/generated/models/Todo.swift; sourceTree = "<group>"; };
 		D4B63B1CDD1DB67B36A06F71 /* Priority.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Priority.swift; path = amplify/generated/models/Priority.swift; sourceTree = "<group>"; };
 		F969E40330A178945F9F5620 /* Todo+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Todo+Schema.swift"; path = "amplify/generated/models/Todo+Schema.swift"; sourceTree = "<group>"; };
@@ -311,6 +314,7 @@
 			children = (
 				39B499581DC7922C00EDACB2 /* AppDelegate.swift */,
 				AE519E5C2640CB9900454F76 /* FacebookDelegate.swift */,
+				AEFF8493266064FC00B2C510 /* AmplifyDelegate.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -998,6 +1002,7 @@
 				394F21B721DDF9D8003F1E88 /* BasicPlaybackViewController.swift in Sources */,
 				AE519E5D2640CB9900454F76 /* FacebookDelegate.swift in Sources */,
 				39B4998E1DC7964800EDACB2 /* TopMenuEntity.swift in Sources */,
+				AEFF8494266064FC00B2C510 /* AmplifyDelegate.swift in Sources */,
 				13309FF6DC574CEA67DD1389 /* AmplifyModels.swift in Sources */,
 				3866F6C66FC369637D6E7A8B /* Priority.swift in Sources */,
 				AA1547CD06230A0D55C23FFC /* Todo+Schema.swift in Sources */,
@@ -1046,6 +1051,7 @@
 				AE05B7272511738500100E1E /* TopMenuListTableViewCell.swift in Sources */,
 				AE05B7282511738500100E1E /* Landmark.swift in Sources */,
 				AE2235A7265491C500D22D59 /* AmplifyModels.swift in Sources */,
+				AEFF8495266064FC00B2C510 /* AmplifyDelegate.swift in Sources */,
 				AE05B7292511738500100E1E /* BasicPlaybackViewController.swift in Sources */,
 				AE519E602640CDF500454F76 /* FacebookDelegate.swift in Sources */,
 				AE2235A8265491C500D22D59 /* Priority.swift in Sources */,

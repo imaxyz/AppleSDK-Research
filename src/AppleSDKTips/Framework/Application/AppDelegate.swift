@@ -6,39 +6,16 @@
 
 import UIKit
 
-// Amplify関連のライブラリをインポート
-import Amplify
-import AWSDataStorePlugin
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    
-    /// AWS Amplify SDKの初期化
-    func configureAmplify() {
-        
-        // Amplifyのログレベルを変更
-        Amplify.Logging.logLevel = .debug
-
-        let dataStorePlugin = AWSDataStorePlugin(modelRegistration: AmplifyModels())
-        do {
-            try Amplify.add(plugin: dataStorePlugin)
-            try Amplify.configure()
-            print("*** Initialized Amplify");
-       
-        } catch {
-            // simplified error handling for the tutorial
-            print("*** Could not initialize Amplify: \(error)")
-        }
-    }
-
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
     {
         // AWS Amplify SDKの初期化
-        configureAmplify()
+        AmplifyDelegate.configureAmplify()
 
         // Facebook SDKの初期化
         FacebookDelegate.start_sdk(application: application, didFinishLaunchingWithOptions: launchOptions)
