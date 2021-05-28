@@ -364,7 +364,7 @@
 			path = "SwiftUI-Tutorial1";
 			sourceTree = "<group>";
 		};
-		3988CBF71F179FAD00F29FA1 /* Framework */ = {
+		3988CBF71F179FAD00F29FA1 /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
 				391C25AC21D526E000A9A631 /* Application */,
@@ -374,7 +374,7 @@
 				39B499861DC7940100EDACB2 /* Resource */,
 				391978632244B069006A3BFD /* WWW */,
 			);
-			path = Framework;
+			path = Architecture;
 			sourceTree = "<group>";
 		};
 		3988CBF81F179FB500F29FA1 /* Application */ = {
@@ -446,7 +446,7 @@
 			isa = PBXGroup;
 			children = (
 				397790862479E81500C2C6C3 /* AppleSDKTips.entitlements */,
-				3988CBF71F179FAD00F29FA1 /* Framework */,
+				3988CBF71F179FAD00F29FA1 /* Architecture */,
 				3988CBF81F179FB500F29FA1 /* Application */,
 				39D029161DCCD17000ADAE35 /* AppleSDKTips-Bridging-Header.h */,
 			);
@@ -1224,7 +1224,7 @@
 					"$(PROJECT_DIR)/AppleSDKTips/Framework/WWW",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				INFOPLIST_FILE = AppleSDKTips/Framework/Resource/Info.plist;
+				INFOPLIST_FILE = AppleSDKTips/Architecture/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1254,7 +1254,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AppleSDKTips/Framework/WWW",
 				);
-				INFOPLIST_FILE = AppleSDKTips/Framework/Resource/Info.plist;
+				INFOPLIST_FILE = AppleSDKTips/Architecture/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1370,7 +1370,7 @@
 					"$(PROJECT_DIR)/AppleSDKTips/Framework/WWW",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				INFOPLIST_FILE = "AppleSDKTips/Framework/Resource/Info-dev.plist";
+				INFOPLIST_FILE = "AppleSDKTips/Architecture/Resource/Info-dev.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1401,7 +1401,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AppleSDKTips/Framework/WWW",
 				);
-				INFOPLIST_FILE = "AppleSDKTips/Framework/Resource/Info-dev.plist";
+				INFOPLIST_FILE = "AppleSDKTips/Architecture/Resource/Info-dev.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

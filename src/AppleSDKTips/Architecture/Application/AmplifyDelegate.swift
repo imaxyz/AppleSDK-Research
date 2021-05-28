@@ -30,4 +30,8 @@ class AmplifyDelegate: NSObject {
         }
     }
 
+    func performOnAppear() {
+       let item = Todo(name: "Build iOS Application",
+                       description: "Build an iOS application using Amplify")
+    }
 }
