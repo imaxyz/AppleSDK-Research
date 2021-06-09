@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -34,13 +35,25 @@
                                     <action selector="query_data_store" destination="Y6W-OH-hqX" eventType="touchUpInside" id="YCN-dV-Mgd"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LZ4-8R-2nu">
+                                <rect key="frame" x="0.0" y="298" width="414" height="564"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="vCh-h4-jPo"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="ZFf-yJ-vbI"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" red="0.0" green="0.6744109789723215" blue="0.36849690498592724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="LZ4-8R-2nu" firstAttribute="top" secondItem="taW-g5-egy" secondAttribute="bottom" constant="50" id="2U3-Sm-o77"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="LZ4-8R-2nu" secondAttribute="trailing" id="2VY-VN-Hjh"/>
                             <constraint firstItem="sh3-Nw-9yU" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="CFq-Dr-0PN"/>
                             <constraint firstItem="taW-g5-egy" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="EaC-TB-jXc"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="LZ4-8R-2nu" secondAttribute="bottom" id="UWn-bF-4XR"/>
                             <constraint firstItem="taW-g5-egy" firstAttribute="top" secondItem="sh3-Nw-9yU" secondAttribute="bottom" constant="50" id="d0S-Fz-nLq"/>
+                            <constraint firstItem="LZ4-8R-2nu" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="dg5-Nd-9cX"/>
                             <constraint firstItem="sh3-Nw-9yU" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="xrn-jW-MSG"/>
                         </constraints>
                     </view>
@@ -51,6 +64,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="todo_list_table_view" destination="LZ4-8R-2nu" id="JhT-SS-Yaw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="7L8-0B-i1X" userLabel="Exit" sceneMemberID="exit"/>
@@ -74,4 +90,9 @@
             <point key="canvasLocation" x="-240" y="316"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
