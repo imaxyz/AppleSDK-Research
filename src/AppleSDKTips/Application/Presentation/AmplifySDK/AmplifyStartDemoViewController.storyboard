@@ -5,7 +5,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,8 +15,34 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sh3-Nw-9yU">
+                                <rect key="frame" x="142" y="138" width="130" height="30"/>
+                                <state key="normal" title="Create Todo model">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapCreateTodoButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="fPd-Wq-nc0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taW-g5-egy">
+                                <rect key="frame" x="144" y="218" width="126" height="30"/>
+                                <state key="normal" title="Query Todo model">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="query_data_store" destination="Y6W-OH-hqX" eventType="touchUpInside" id="YCN-dV-Mgd"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="backgroundColor" red="0.0" green="0.6744109789723215" blue="0.36849690498592724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sh3-Nw-9yU" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="CFq-Dr-0PN"/>
+                            <constraint firstItem="taW-g5-egy" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="EaC-TB-jXc"/>
+                            <constraint firstItem="taW-g5-egy" firstAttribute="top" secondItem="sh3-Nw-9yU" secondAttribute="bottom" constant="50" id="d0S-Fz-nLq"/>
+                            <constraint firstItem="sh3-Nw-9yU" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="xrn-jW-MSG"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bmm-IR-hJX">
                         <barButtonItem key="leftBarButtonItem" title="戻る" id="ioc-mF-Mpz">
@@ -49,9 +74,4 @@
             <point key="canvasLocation" x="-240" y="316"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-    </resources>
 </document>

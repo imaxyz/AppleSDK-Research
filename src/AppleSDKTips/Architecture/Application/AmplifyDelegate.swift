@@ -29,9 +29,4 @@ class AmplifyDelegate: NSObject {
             print("*** Could not initialize Amplify: \(error)")
         }
     }
-
-    func performOnAppear() {
-       let item = Todo(name: "Build iOS Application",
-                       description: "Build an iOS application using Amplify")
-    }
 }
