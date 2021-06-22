@@ -23,7 +23,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="didTapCreateTodoButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="fPd-Wq-nc0"/>
+                                    <action selector="did_tap_create_todo_button:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="fPd-Wq-nc0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taW-g5-egy">

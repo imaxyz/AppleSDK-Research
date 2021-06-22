@@ -59,7 +59,7 @@ class AmplifyStartDemoViewController: UIViewController, UITableViewDelegate, UIT
         }
     }
 
-    @IBAction func didTapCreateTodoButton(_ sender: Any) {
+    @IBAction func did_tap_create_todo_button(_ sender: Any) {
 
         // 現在時刻を取得
         let current_time = Date()
