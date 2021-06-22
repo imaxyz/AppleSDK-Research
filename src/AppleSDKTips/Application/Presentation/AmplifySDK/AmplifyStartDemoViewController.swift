@@ -24,9 +24,11 @@ class AmplifyStartDemoViewController: UIViewController, UITableViewDelegate, UIT
     // Todoモデルを問い合わせる
     @IBAction func query_data_store() {
         
+        let query_sort = QuerySortInput([QuerySortBy.descending(Todo.keys.description)])
         Amplify.DataStore.query(Todo.self,
                                 // クエリの条件を付加
-                                where: Todo.keys.priority.eq(Priority.high))
+                                where: Todo.keys.priority.eq(Priority.high),
+                                sort: query_sort)
         { result in
             
             switch(result) {
