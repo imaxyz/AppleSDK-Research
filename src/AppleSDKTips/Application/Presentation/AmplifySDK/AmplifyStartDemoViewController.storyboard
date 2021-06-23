@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gqK-90-x2j">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -14,12 +14,12 @@
             <objects>
                 <viewController id="Y6W-OH-hqX" customClass="AmplifyStartDemoViewController" customModule="AppleSDKTips" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sh3-Nw-9yU">
-                                <rect key="frame" x="142" y="138" width="130" height="30"/>
-                                <state key="normal" title="Create Todo model">
+                                <rect key="frame" x="117.66666666666669" y="98" width="140" height="30"/>
+                                <state key="normal" title="CREATE Todo model">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -27,7 +27,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taW-g5-egy">
-                                <rect key="frame" x="144" y="218" width="126" height="30"/>
+                                <rect key="frame" x="124.66666666666669" y="138" width="126" height="30"/>
                                 <state key="normal" title="Query Todo model">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -36,25 +36,48 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LZ4-8R-2nu">
-                                <rect key="frame" x="0.0" y="298" width="414" height="564"/>
+                                <rect key="frame" x="0.0" y="283" width="375" height="495"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="Y6W-OH-hqX" id="vCh-h4-jPo"/>
                                     <outlet property="delegate" destination="Y6W-OH-hqX" id="ZFf-yJ-vbI"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dq8-By-4UU">
+                                <rect key="frame" x="118" y="218" width="139" height="30"/>
+                                <state key="normal" title="DELETE Todo model">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="did_tap_delete_todo_button:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Uly-ds-fby"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lO4-Tk-53s">
+                                <rect key="frame" x="116.66666666666669" y="178" width="142" height="30"/>
+                                <state key="normal" title="UPDATE Todo model">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="did_tap_update_todo_button:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="qJU-bC-T32"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" red="0.0" green="0.6744109789723215" blue="0.36849690498592724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="LZ4-8R-2nu" firstAttribute="top" secondItem="taW-g5-egy" secondAttribute="bottom" constant="50" id="2U3-Sm-o77"/>
+                            <constraint firstItem="dq8-By-4UU" firstAttribute="centerX" secondItem="lO4-Tk-53s" secondAttribute="centerX" id="19E-5c-pNC"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="LZ4-8R-2nu" secondAttribute="trailing" id="2VY-VN-Hjh"/>
+                            <constraint firstItem="lO4-Tk-53s" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="5Ud-VG-5yV"/>
+                            <constraint firstItem="lO4-Tk-53s" firstAttribute="top" secondItem="taW-g5-egy" secondAttribute="bottom" constant="10" id="99L-9y-JEl"/>
                             <constraint firstItem="sh3-Nw-9yU" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="CFq-Dr-0PN"/>
                             <constraint firstItem="taW-g5-egy" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="EaC-TB-jXc"/>
+                            <constraint firstItem="dq8-By-4UU" firstAttribute="top" secondItem="lO4-Tk-53s" secondAttribute="bottom" constant="10" id="ToI-0k-Nnh"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="LZ4-8R-2nu" secondAttribute="bottom" id="UWn-bF-4XR"/>
-                            <constraint firstItem="taW-g5-egy" firstAttribute="top" secondItem="sh3-Nw-9yU" secondAttribute="bottom" constant="50" id="d0S-Fz-nLq"/>
+                            <constraint firstItem="taW-g5-egy" firstAttribute="top" secondItem="sh3-Nw-9yU" secondAttribute="bottom" constant="10" id="d0S-Fz-nLq"/>
                             <constraint firstItem="LZ4-8R-2nu" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="dg5-Nd-9cX"/>
-                            <constraint firstItem="sh3-Nw-9yU" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="xrn-jW-MSG"/>
+                            <constraint firstItem="dq8-By-4UU" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="uJN-fD-qx3"/>
+                            <constraint firstItem="sh3-Nw-9yU" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="xrn-jW-MSG"/>
+                            <constraint firstItem="LZ4-8R-2nu" firstAttribute="top" secondItem="dq8-By-4UU" secondAttribute="bottom" constant="35" id="yif-uy-kpl"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bmm-IR-hJX">
@@ -71,14 +94,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="7L8-0B-i1X" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="654" y="315"/>
+            <point key="canvasLocation" x="653.60000000000002" y="314.77832512315274"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QzQ-L7-JsC">
             <objects>
                 <navigationController id="gqK-90-x2j" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8eP-Dh-YNK">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
