@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13309FF6DC574CEA67DD1389 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86906558CB0C2873AAE047FD /* AmplifyModels.swift */; };
+		32B55314DCE52B8F8775FE74 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A96D19969529B31DCDC13701 /* awsconfiguration.json */; };
 		3354CC9E06961827E56EAF09 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B06BFB7010138FA94351B9 /* Todo.swift */; };
 		3866F6C66FC369637D6E7A8B /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B63B1CDD1DB67B36A06F71 /* Priority.swift */; };
 		390178CD1DCC11870042D29A /* TopMenuListTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390178CC1DCC11870042D29A /* TopMenuListTableViewDataSource.swift */; };
@@ -105,6 +106,7 @@
 		AEEAA50226533F2B00822BF1 /* AmplifyStartDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEAA50026533F2B00822BF1 /* AmplifyStartDemoViewController.swift */; };
 		AEFF8494266064FC00B2C510 /* AmplifyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF8493266064FC00B2C510 /* AmplifyDelegate.swift */; };
 		AEFF8495266064FC00B2C510 /* AmplifyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF8493266064FC00B2C510 /* AmplifyDelegate.swift */; };
+		B2E0112628DF3606657AA4D5 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 524AE0171242BBDBAC1E3BCE /* amplifyconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -971,6 +973,8 @@
 				AE05B73E2511738500100E1E /* Main.storyboard in Resources */,
 				AE05B73F2511738500100E1E /* topMenu.plist in Resources */,
 				AE05B7402511738500100E1E /* BasicPlaybackViewController.storyboard in Resources */,
+				32B55314DCE52B8F8775FE74 /* awsconfiguration.json in Resources */,
+				B2E0112628DF3606657AA4D5 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
