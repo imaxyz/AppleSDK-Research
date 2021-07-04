@@ -3,3 +3,6 @@ src/AppleSDKTips.xcodeproj/xcuserdata
 src/AppleSDKTips.xcworkspace/xcuserdata
 *.swp
 Info-dev.plist
+src/amplify
+awsconfiguration.json
+amplifyconfiguration.json

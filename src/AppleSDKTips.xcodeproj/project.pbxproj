@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		34F05AD0A11EB963AEDEFDDD /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45442FFF4C793CFDF88FDB87 /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework */; };
+		13309FF6DC574CEA67DD1389 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86906558CB0C2873AAE047FD /* AmplifyModels.swift */; };
+		32B55314DCE52B8F8775FE74 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A96D19969529B31DCDC13701 /* awsconfiguration.json */; };
+		3354CC9E06961827E56EAF09 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B06BFB7010138FA94351B9 /* Todo.swift */; };
+		3866F6C66FC369637D6E7A8B /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B63B1CDD1DB67B36A06F71 /* Priority.swift */; };
 		390178CD1DCC11870042D29A /* TopMenuListTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390178CC1DCC11870042D29A /* TopMenuListTableViewDataSource.swift */; };
 		390178CF1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390178CE1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift */; };
-		390B546C2072BE59009CBD24 /* Verification20180403TempView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 390B546B2072BE59009CBD24 /* Verification20180403TempView.xib */; };
 		394F21B321DDF445003F1E88 /* BasicPlaybackViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394F21B221DDF445003F1E88 /* BasicPlaybackViewController.storyboard */; };
 		394F21B521DDF553003F1E88 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 394F21B421DDF553003F1E88 /* README.md */; };
 		394F21B721DDF9D8003F1E88 /* BasicPlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394F21B621DDF9D8003F1E88 /* BasicPlaybackViewController.swift */; };
@@ -36,7 +38,7 @@
 		39D029121DCCC22300ADAE35 /* TopMenuListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D029111DCCC22300ADAE35 /* TopMenuListTableViewCell.swift */; };
 		39D0291D1DCCD88000ADAE35 /* TopMenuList.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D0291C1DCCD88000ADAE35 /* TopMenuList.m */; };
 		39E3AB9E2485347500B3ED15 /* SomeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E3AB9D2485347500B3ED15 /* SomeMapView.swift */; };
-		49DE3D1F1B0D328F5C2AAA37 /* Pods_AppleSDKTipsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */; };
+		AA1547CD06230A0D55C23FFC /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = F969E40330A178945F9F5620 /* Todo+Schema.swift */; };
 		AE05B7182511738500100E1E /* TopMenuList.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D0291C1DCCD88000ADAE35 /* TopMenuList.m */; };
 		AE05B7192511738500100E1E /* CollectionView1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */; };
 		AE05B71A2511738500100E1E /* ImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50B48224A55C59003B9F3C /* ImageDataSource.swift */; };
@@ -65,7 +67,6 @@
 		AE05B7382511738500100E1E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 394F21B421DDF553003F1E88 /* README.md */; };
 		AE05B7392511738500100E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B499611DC7922C00EDACB2 /* LaunchScreen.storyboard */; };
 		AE05B73A2511738500100E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B4995F1DC7922C00EDACB2 /* Assets.xcassets */; };
-		AE05B73B2511738500100E1E /* Verification20180403TempView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 390B546B2072BE59009CBD24 /* Verification20180403TempView.xib */; };
 		AE05B73C2511738500100E1E /* tutorial1.json in Resources */ = {isa = PBXBuildFile; fileRef = AE7DFA302497BD8C00C96C91 /* tutorial1.json */; };
 		AE05B73D2511738500100E1E /* ZoomingSample1ScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39BA76CC1E9691F700810E47 /* ZoomingSample1ScrollView.xib */; };
 		AE05B73E2511738500100E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B4995C1DC7922C00EDACB2 /* Main.storyboard */; };
@@ -73,6 +74,17 @@
 		AE05B7402511738500100E1E /* BasicPlaybackViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394F21B221DDF445003F1E88 /* BasicPlaybackViewController.storyboard */; };
 		AE05B7442511738500100E1E /* PropertyListComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AE05B74E251173ED00100E1E /* Info-dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE05B74D251173ED00100E1E /* Info-dev.plist */; };
+		AE22359326548F7300D22D59 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = AE22359226548F7300D22D59 /* Amplify */; };
+		AE22359726548F8600D22D59 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE22359626548F8600D22D59 /* AWSAPIPlugin */; };
+		AE22359926548F8600D22D59 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE22359826548F8600D22D59 /* AWSDataStorePlugin */; };
+		AE2235A7265491C500D22D59 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86906558CB0C2873AAE047FD /* AmplifyModels.swift */; };
+		AE2235A8265491C500D22D59 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B63B1CDD1DB67B36A06F71 /* Priority.swift */; };
+		AE2235A9265491C500D22D59 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = F969E40330A178945F9F5620 /* Todo+Schema.swift */; };
+		AE2235AA265491C500D22D59 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B06BFB7010138FA94351B9 /* Todo.swift */; };
+		AE2235AB265491E900D22D59 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 524AE0171242BBDBAC1E3BCE /* amplifyconfiguration.json */; };
+		AE2235AC265491EA00D22D59 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 524AE0171242BBDBAC1E3BCE /* amplifyconfiguration.json */; };
+		AE2235AD265491ED00D22D59 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A96D19969529B31DCDC13701 /* awsconfiguration.json */; };
+		AE2235AE265491EE00D22D59 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A96D19969529B31DCDC13701 /* awsconfiguration.json */; };
 		AE34EBAF249524E300BD2B3F /* PropertyListComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; };
 		AE34EBB0249524E300BD2B3F /* PropertyListComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3CD8324951B4400C9AA9D /* PropertyListComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AE50B48324A55C59003B9F3C /* ImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50B48224A55C59003B9F3C /* ImageDataSource.swift */; };
@@ -86,8 +98,15 @@
 		AE7DFA332497BD8C00C96C91 /* tutorial1.json in Resources */ = {isa = PBXBuildFile; fileRef = AE7DFA302497BD8C00C96C91 /* tutorial1.json */; };
 		AE7DFA382497C35E00C96C91 /* LandmarkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */; };
 		AE7DFA3C2497CC0C00C96C91 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFA3B2497CC0C00C96C91 /* Landmark.swift */; };
+		AE86DB242653395E00BB846C /* AmplifyStartDemoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE86DB232653395E00BB846C /* AmplifyStartDemoViewController.storyboard */; };
+		AE86DB282653399500BB846C /* AmplifyStartDemoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE86DB232653395E00BB846C /* AmplifyStartDemoViewController.storyboard */; };
 		AED17B8724F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */; };
 		AED17B8924F72B0700E76414 /* FacebookSimpleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */; };
+		AEEAA50126533F2B00822BF1 /* AmplifyStartDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEAA50026533F2B00822BF1 /* AmplifyStartDemoViewController.swift */; };
+		AEEAA50226533F2B00822BF1 /* AmplifyStartDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEAA50026533F2B00822BF1 /* AmplifyStartDemoViewController.swift */; };
+		AEFF8494266064FC00B2C510 /* AmplifyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF8493266064FC00B2C510 /* AmplifyDelegate.swift */; };
+		AEFF8495266064FC00B2C510 /* AmplifyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF8493266064FC00B2C510 /* AmplifyDelegate.swift */; };
+		B2E0112628DF3606657AA4D5 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 524AE0171242BBDBAC1E3BCE /* amplifyconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,7 +168,6 @@
 /* Begin PBXFileReference section */
 		390178CC1DCC11870042D29A /* TopMenuListTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuListTableViewDataSource.swift; sourceTree = "<group>"; };
 		390178CE1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuListViewControllerUITableViewDelegate.swift; sourceTree = "<group>"; };
-		390B546B2072BE59009CBD24 /* Verification20180403TempView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Verification20180403TempView.xib; sourceTree = "<group>"; };
 		3914590F246DF31200DBA269 /* PropertyListComponent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PropertyListComponent.xcodeproj; path = "../../imaxyz-PropertyListComponent/PropertyListComponent/PropertyListComponent.xcodeproj"; sourceTree = "<group>"; };
 		3919785E2244B04F006A3BFD /* PropertyListComponent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PropertyListComponent.framework; sourceTree = "<group>"; };
 		394F21B221DDF445003F1E88 /* BasicPlaybackViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BasicPlaybackViewController.storyboard; sourceTree = "<group>"; };
@@ -188,18 +206,31 @@
 		39D0291B1DCCD88000ADAE35 /* TopMenuList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopMenuList.h; sourceTree = "<group>"; };
 		39D0291C1DCCD88000ADAE35 /* TopMenuList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopMenuList.m; sourceTree = "<group>"; };
 		39E3AB9D2485347500B3ED15 /* SomeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeMapView.swift; sourceTree = "<group>"; };
-		45442FFF4C793CFDF88FDB87 /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTips_AppleSDKTipsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		524AE0171242BBDBAC1E3BCE /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		86906558CB0C2873AAE047FD /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		A96D19969529B31DCDC13701 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		AE05B7492511738500100E1E /* AppleSDKTipsDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSDKTipsDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE05B74D251173ED00100E1E /* Info-dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-dev.plist"; sourceTree = "<group>"; };
+		AE22358326548B4A00D22D59 /* project-config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "project-config.json"; sourceTree = "<group>"; };
+		AE22358426548B4A00D22D59 /* cli.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cli.json; sourceTree = "<group>"; };
+		AE22358626548B4A00D22D59 /* backend-config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "backend-config.json"; sourceTree = "<group>"; };
+		AE22358A26548B4A00D22D59 /* CustomResources.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CustomResources.json; sourceTree = "<group>"; };
+		AE22358B26548B4A00D22D59 /* parameters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = parameters.json; sourceTree = "<group>"; };
+		AE22358C26548B4A00D22D59 /* schema.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.graphql; sourceTree = "<group>"; };
+		AE22358D26548B4A00D22D59 /* transform.conf.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = transform.conf.json; sourceTree = "<group>"; };
 		AE50B48224A55C59003B9F3C /* ImageDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataSource.swift; sourceTree = "<group>"; };
 		AE519E5C2640CB9900454F76 /* FacebookDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookDelegate.swift; sourceTree = "<group>"; };
 		AE7DFA302497BD8C00C96C91 /* tutorial1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial1.json; sourceTree = "<group>"; };
 		AE7DFA372497C35E00C96C91 /* LandmarkRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRowView.swift; path = "AppleSDKTips/Application/Presentation/SwiftUI-Tutorial1/Views/LandmarkRowView.swift"; sourceTree = SOURCE_ROOT; };
 		AE7DFA3B2497CC0C00C96C91 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		AE86DB232653395E00BB846C /* AmplifyStartDemoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AmplifyStartDemoViewController.storyboard; sourceTree = "<group>"; };
 		AED17B8624F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FacebookSimpleLoginViewController.storyboard; sourceTree = "<group>"; };
 		AED17B8824F72B0700E76414 /* FacebookSimpleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookSimpleLoginViewController.swift; sourceTree = "<group>"; };
-		D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTipsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleSDKTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEAA50026533F2B00822BF1 /* AmplifyStartDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplifyStartDemoViewController.swift; sourceTree = "<group>"; };
+		AEFF8493266064FC00B2C510 /* AmplifyDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplifyDelegate.swift; sourceTree = "<group>"; };
+		B3B06BFB7010138FA94351B9 /* Todo.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Todo.swift; path = amplify/generated/models/Todo.swift; sourceTree = "<group>"; };
+		D4B63B1CDD1DB67B36A06F71 /* Priority.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Priority.swift; path = amplify/generated/models/Priority.swift; sourceTree = "<group>"; };
+		F969E40330A178945F9F5620 /* Todo+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Todo+Schema.swift"; path = "amplify/generated/models/Todo+Schema.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,7 +251,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49DE3D1F1B0D328F5C2AAA37 /* Pods_AppleSDKTipsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +258,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34F05AD0A11EB963AEDEFDDD /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +265,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE22359726548F8600D22D59 /* AWSAPIPlugin in Frameworks */,
 				AE05B7302511738500100E1E /* PropertyListComponent.framework in Frameworks */,
+				AE22359326548F7300D22D59 /* Amplify in Frameworks */,
+				AE22359926548F8600D22D59 /* AWSDataStorePlugin in Frameworks */,
 				AE05B7322511738500100E1E /* FacebookLogin in Frameworks */,
 				AE05B7332511738500100E1E /* FacebookCore in Frameworks */,
 			);
@@ -245,16 +277,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		39145918246DF35100DBA269 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F8730EF3C98280E63A492213 /* Pods_AppleSDKTips.framework */,
-				45442FFF4C793CFDF88FDB87 /* Pods_AppleSDKTips_AppleSDKTipsUITests.framework */,
-				D0EC59C586EB1A9548C7A0BB /* Pods_AppleSDKTipsTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		391978632244B069006A3BFD /* WWW */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,6 +316,7 @@
 			children = (
 				39B499581DC7922C00EDACB2 /* AppDelegate.swift */,
 				AE519E5C2640CB9900454F76 /* FacebookDelegate.swift */,
+				AEFF8493266064FC00B2C510 /* AmplifyDelegate.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -319,8 +342,8 @@
 		394F21B821DE040B003F1E88 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				3988CC031F17A17C00F29FA1 /* View */,
-				3988CBFE1F17A11400F29FA1 /* ViewController */,
+				AEEAA5072654761800822BF1 /* CollectionViewDemo */,
+				AEEAA5042654757800822BF1 /* ScrollViewDemo */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -343,7 +366,7 @@
 			path = "SwiftUI-Tutorial1";
 			sourceTree = "<group>";
 		};
-		3988CBF71F179FAD00F29FA1 /* Framework */ = {
+		3988CBF71F179FAD00F29FA1 /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
 				391C25AC21D526E000A9A631 /* Application */,
@@ -353,7 +376,7 @@
 				39B499861DC7940100EDACB2 /* Resource */,
 				391978632244B069006A3BFD /* WWW */,
 			);
-			path = Framework;
+			path = Architecture;
 			sourceTree = "<group>";
 		};
 		3988CBF81F179FB500F29FA1 /* Application */ = {
@@ -377,66 +400,13 @@
 		3988CBFA1F17A01800F29FA1 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				AE86DB202653391C00BB846C /* AmplifySDK */,
 				AED17B8224F72A7B00E76414 /* FacebookSDK */,
 				397E13D7247AB65A00688DE2 /* SwiftUI-Tutorial1 */,
 				394F21AD21DDF40D003F1E88 /* AVFoundation */,
 				394F21B821DE040B003F1E88 /* UIKit */,
 			);
 			path = Presentation;
-			sourceTree = "<group>";
-		};
-		3988CBFE1F17A11400F29FA1 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				3953DB451E6B09D4007BDD49 /* CollectionView1ViewController.swift */,
-				39BA76C01E9687AE00810E47 /* ZoomingSample1ViewController.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		3988CBFF1F17A11F00F29FA1 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				39BA76C21E9687F000810E47 /* ZoomingSample1ViewController.storyboard */,
-				3953DB431E6B0951007BDD49 /* CollectionView1ViewController.storyboard */,
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		3988CC001F17A13A00F29FA1 /* Xib */ = {
-			isa = PBXGroup;
-			children = (
-				39BA76CC1E9691F700810E47 /* ZoomingSample1ScrollView.xib */,
-				390B546B2072BE59009CBD24 /* Verification20180403TempView.xib */,
-			);
-			path = Xib;
-			sourceTree = "<group>";
-		};
-		3988CC011F17A14000F29FA1 /* ScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				39BA76C51E968A9B00810E47 /* ZoomingSample1ScrollView.swift */,
-			);
-			path = ScrollView;
-			sourceTree = "<group>";
-		};
-		3988CC021F17A14600F29FA1 /* CollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */,
-			);
-			path = CollectionViewCell;
-			sourceTree = "<group>";
-		};
-		3988CC031F17A17C00F29FA1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				3988CC021F17A14600F29FA1 /* CollectionViewCell */,
-				3988CC011F17A14000F29FA1 /* ScrollView */,
-				3988CC001F17A13A00F29FA1 /* Xib */,
-				3988CBFF1F17A11F00F29FA1 /* Storyboard */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		399B04432243E3CC003B9ED5 /* TechnicalService */ = {
@@ -456,7 +426,10 @@
 				39B4996C1DC7922C00EDACB2 /* AppleSDKTipsTests */,
 				39B499771DC7922C00EDACB2 /* AppleSDKTipsUITests */,
 				39B499561DC7922C00EDACB2 /* Products */,
-				39145918246DF35100DBA269 /* Frameworks */,
+				AE22358126548B4A00D22D59 /* amplify */,
+				FA3F76AB16DF43DA21AA6032 /* AmplifyConfig */,
+				CDFE1837A6B59805C1362587 /* AmplifyModels */,
+				AE22359126548F7300D22D59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -475,7 +448,7 @@
 			isa = PBXGroup;
 			children = (
 				397790862479E81500C2C6C3 /* AppleSDKTips.entitlements */,
-				3988CBF71F179FAD00F29FA1 /* Framework */,
+				3988CBF71F179FAD00F29FA1 /* Architecture */,
 				3988CBF81F179FB500F29FA1 /* Application */,
 				39D029161DCCD17000ADAE35 /* AppleSDKTips-Bridging-Header.h */,
 			);
@@ -597,6 +570,67 @@
 			path = TopMenu;
 			sourceTree = "<group>";
 		};
+		AE22358126548B4A00D22D59 /* amplify */ = {
+			isa = PBXGroup;
+			children = (
+				AE22358226548B4A00D22D59 /* .config */,
+				AE22358426548B4A00D22D59 /* cli.json */,
+				AE22358526548B4A00D22D59 /* backend */,
+			);
+			path = amplify;
+			sourceTree = "<group>";
+		};
+		AE22358226548B4A00D22D59 /* .config */ = {
+			isa = PBXGroup;
+			children = (
+				AE22358326548B4A00D22D59 /* project-config.json */,
+			);
+			path = .config;
+			sourceTree = "<group>";
+		};
+		AE22358526548B4A00D22D59 /* backend */ = {
+			isa = PBXGroup;
+			children = (
+				AE22358626548B4A00D22D59 /* backend-config.json */,
+				AE22358726548B4A00D22D59 /* api */,
+			);
+			path = backend;
+			sourceTree = "<group>";
+		};
+		AE22358726548B4A00D22D59 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				AE22358826548B4A00D22D59 /* amplifyDatasource */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		AE22358826548B4A00D22D59 /* amplifyDatasource */ = {
+			isa = PBXGroup;
+			children = (
+				AE22358926548B4A00D22D59 /* stacks */,
+				AE22358B26548B4A00D22D59 /* parameters.json */,
+				AE22358C26548B4A00D22D59 /* schema.graphql */,
+				AE22358D26548B4A00D22D59 /* transform.conf.json */,
+			);
+			path = amplifyDatasource;
+			sourceTree = "<group>";
+		};
+		AE22358926548B4A00D22D59 /* stacks */ = {
+			isa = PBXGroup;
+			children = (
+				AE22358A26548B4A00D22D59 /* CustomResources.json */,
+			);
+			path = stacks;
+			sourceTree = "<group>";
+		};
+		AE22359126548F7300D22D59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE50B47E24A4E567003B9F3C /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -639,6 +673,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		AE86DB202653391C00BB846C /* AmplifySDK */ = {
+			isa = PBXGroup;
+			children = (
+				AE86DB232653395E00BB846C /* AmplifyStartDemoViewController.storyboard */,
+				AEEAA50026533F2B00822BF1 /* AmplifyStartDemoViewController.swift */,
+			);
+			path = AmplifySDK;
+			sourceTree = "<group>";
+		};
 		AED17B8224F72A7B00E76414 /* FacebookSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -663,6 +706,47 @@
 				AEE3CD8524951B4400C9AA9D /* PropertyListComponentTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AEEAA5042654757800822BF1 /* ScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				39BA76C01E9687AE00810E47 /* ZoomingSample1ViewController.swift */,
+				39BA76CC1E9691F700810E47 /* ZoomingSample1ScrollView.xib */,
+				39BA76C51E968A9B00810E47 /* ZoomingSample1ScrollView.swift */,
+				39BA76C21E9687F000810E47 /* ZoomingSample1ViewController.storyboard */,
+			);
+			path = ScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		AEEAA5072654761800822BF1 /* CollectionViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3953DB481E6B0ECB007BDD49 /* CollectionView1Cell.swift */,
+				3953DB451E6B09D4007BDD49 /* CollectionView1ViewController.swift */,
+				3953DB431E6B0951007BDD49 /* CollectionView1ViewController.storyboard */,
+			);
+			path = CollectionViewDemo;
+			sourceTree = "<group>";
+		};
+		CDFE1837A6B59805C1362587 /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				86906558CB0C2873AAE047FD /* AmplifyModels.swift */,
+				D4B63B1CDD1DB67B36A06F71 /* Priority.swift */,
+				F969E40330A178945F9F5620 /* Todo+Schema.swift */,
+				B3B06BFB7010138FA94351B9 /* Todo.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
+		FA3F76AB16DF43DA21AA6032 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				A96D19969529B31DCDC13701 /* awsconfiguration.json */,
+				524AE0171242BBDBAC1E3BCE /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -746,6 +830,9 @@
 			packageProductDependencies = (
 				AE05B7122511738500100E1E /* FacebookLogin */,
 				AE05B7142511738500100E1E /* FacebookCore */,
+				AE22359226548F7300D22D59 /* Amplify */,
+				AE22359626548F8600D22D59 /* AWSAPIPlugin */,
+				AE22359826548F8600D22D59 /* AWSDataStorePlugin */,
 			);
 			productName = AppleSDKTips;
 			productReference = AE05B7492511738500100E1E /* AppleSDKTipsDev.app */;
@@ -836,12 +923,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3953DB441E6B0951007BDD49 /* CollectionView1ViewController.storyboard in Resources */,
+				AE86DB242653395E00BB846C /* AmplifyStartDemoViewController.storyboard in Resources */,
 				AED17B8724F72ADD00E76414 /* FacebookSimpleLoginViewController.storyboard in Resources */,
 				39BA76C31E9687F000810E47 /* ZoomingSample1ViewController.storyboard in Resources */,
 				394F21B521DDF553003F1E88 /* README.md in Resources */,
 				39B499631DC7922C00EDACB2 /* LaunchScreen.storyboard in Resources */,
 				39B499601DC7922C00EDACB2 /* Assets.xcassets in Resources */,
-				390B546C2072BE59009CBD24 /* Verification20180403TempView.xib in Resources */,
+				AE2235AC265491EA00D22D59 /* amplifyconfiguration.json in Resources */,
+				AE2235AE265491EE00D22D59 /* awsconfiguration.json in Resources */,
 				AE7DFA332497BD8C00C96C91 /* tutorial1.json in Resources */,
 				39BA76CD1E9691F700810E47 /* ZoomingSample1ScrollView.xib in Resources */,
 				39B4995E1DC7922C00EDACB2 /* Main.storyboard in Resources */,
@@ -872,16 +961,20 @@
 				AE05B7352511738500100E1E /* CollectionView1ViewController.storyboard in Resources */,
 				AE05B7362511738500100E1E /* FacebookSimpleLoginViewController.storyboard in Resources */,
 				AE05B7372511738500100E1E /* ZoomingSample1ViewController.storyboard in Resources */,
+				AE2235AB265491E900D22D59 /* amplifyconfiguration.json in Resources */,
 				AE05B7382511738500100E1E /* README.md in Resources */,
+				AE2235AD265491ED00D22D59 /* awsconfiguration.json in Resources */,
+				AE86DB282653399500BB846C /* AmplifyStartDemoViewController.storyboard in Resources */,
 				AE05B7392511738500100E1E /* LaunchScreen.storyboard in Resources */,
 				AE05B73A2511738500100E1E /* Assets.xcassets in Resources */,
-				AE05B73B2511738500100E1E /* Verification20180403TempView.xib in Resources */,
 				AE05B74E251173ED00100E1E /* Info-dev.plist in Resources */,
 				AE05B73C2511738500100E1E /* tutorial1.json in Resources */,
 				AE05B73D2511738500100E1E /* ZoomingSample1ScrollView.xib in Resources */,
 				AE05B73E2511738500100E1E /* Main.storyboard in Resources */,
 				AE05B73F2511738500100E1E /* topMenu.plist in Resources */,
 				AE05B7402511738500100E1E /* BasicPlaybackViewController.storyboard in Resources */,
+				32B55314DCE52B8F8775FE74 /* awsconfiguration.json in Resources */,
+				B2E0112628DF3606657AA4D5 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -905,6 +998,7 @@
 				39E3AB9E2485347500B3ED15 /* SomeMapView.swift in Sources */,
 				390178CD1DCC11870042D29A /* TopMenuListTableViewDataSource.swift in Sources */,
 				3953DB461E6B09D4007BDD49 /* CollectionView1ViewController.swift in Sources */,
+				AEEAA50126533F2B00822BF1 /* AmplifyStartDemoViewController.swift in Sources */,
 				390178CF1DCC13820042D29A /* TopMenuListViewControllerUITableViewDelegate.swift in Sources */,
 				397E1418247ABE1700688DE2 /* LandmarkDetailView.swift in Sources */,
 				39D029121DCCC22300ADAE35 /* TopMenuListTableViewCell.swift in Sources */,
@@ -912,6 +1006,11 @@
 				394F21B721DDF9D8003F1E88 /* BasicPlaybackViewController.swift in Sources */,
 				AE519E5D2640CB9900454F76 /* FacebookDelegate.swift in Sources */,
 				39B4998E1DC7964800EDACB2 /* TopMenuEntity.swift in Sources */,
+				AEFF8494266064FC00B2C510 /* AmplifyDelegate.swift in Sources */,
+				13309FF6DC574CEA67DD1389 /* AmplifyModels.swift in Sources */,
+				3866F6C66FC369637D6E7A8B /* Priority.swift in Sources */,
+				AA1547CD06230A0D55C23FFC /* Todo+Schema.swift in Sources */,
+				3354CC9E06961827E56EAF09 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -948,12 +1047,18 @@
 				AE05B7222511738500100E1E /* SomeMapView.swift in Sources */,
 				AE05B7232511738500100E1E /* TopMenuListTableViewDataSource.swift in Sources */,
 				AE05B7242511738500100E1E /* CollectionView1ViewController.swift in Sources */,
+				AEEAA50226533F2B00822BF1 /* AmplifyStartDemoViewController.swift in Sources */,
+				AE2235AA265491C500D22D59 /* Todo.swift in Sources */,
+				AE2235A9265491C500D22D59 /* Todo+Schema.swift in Sources */,
 				AE05B7252511738500100E1E /* TopMenuListViewControllerUITableViewDelegate.swift in Sources */,
 				AE05B7262511738500100E1E /* LandmarkDetailView.swift in Sources */,
 				AE05B7272511738500100E1E /* TopMenuListTableViewCell.swift in Sources */,
 				AE05B7282511738500100E1E /* Landmark.swift in Sources */,
+				AE2235A7265491C500D22D59 /* AmplifyModels.swift in Sources */,
+				AEFF8495266064FC00B2C510 /* AmplifyDelegate.swift in Sources */,
 				AE05B7292511738500100E1E /* BasicPlaybackViewController.swift in Sources */,
 				AE519E602640CDF500454F76 /* FacebookDelegate.swift in Sources */,
+				AE2235A8265491C500D22D59 /* Priority.swift in Sources */,
 				AE05B72A2511738500100E1E /* TopMenuEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1123,7 +1228,7 @@
 					"$(PROJECT_DIR)/AppleSDKTips/Framework/WWW",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				INFOPLIST_FILE = AppleSDKTips/Framework/Resource/Info.plist;
+				INFOPLIST_FILE = AppleSDKTips/Architecture/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1153,7 +1258,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AppleSDKTips/Framework/WWW",
 				);
-				INFOPLIST_FILE = AppleSDKTips/Framework/Resource/Info.plist;
+				INFOPLIST_FILE = AppleSDKTips/Architecture/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1269,7 +1374,7 @@
 					"$(PROJECT_DIR)/AppleSDKTips/Framework/WWW",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				INFOPLIST_FILE = "AppleSDKTips/Framework/Resource/Info-dev.plist";
+				INFOPLIST_FILE = "AppleSDKTips/Architecture/Resource/Info-dev.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1300,7 +1405,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AppleSDKTips/Framework/WWW",
 				);
-				INFOPLIST_FILE = "AppleSDKTips/Framework/Resource/Info-dev.plist";
+				INFOPLIST_FILE = "AppleSDKTips/Architecture/Resource/Info-dev.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1379,7 +1484,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
 			requirement = {
-				kind = upToNextMajorVersion;
+				kind = upToNextMinorVersion;
 				minimumVersion = 1.9.0;
 			};
 		};
@@ -1403,6 +1508,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AE05B7132511738500100E1E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
 			productName = FacebookCore;
+		};
+		AE22359226548F7300D22D59 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE519E512640C40000454F76 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+		AE22359626548F8600D22D59 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE519E512640C40000454F76 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSAPIPlugin;
+		};
+		AE22359826548F8600D22D59 /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE519E512640C40000454F76 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSDataStorePlugin;
 		};
 		AE519E522640C40000454F76 /* AWSDataStorePlugin */ = {
 			isa = XCSwiftPackageProductDependency;
